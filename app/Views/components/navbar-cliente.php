@@ -1,6 +1,6 @@
-<nav id="navbar-cliente" class="navbar navbar-expand-lg">
+<nav id="navbar-cliente" class="navbar navbar-expand-lg container-fluid">
 
-    <div class="container-fluid">
+    <div class="container" id="elementos-navbar">
 
         <a class="navbar-brand" href="#">
 
@@ -29,6 +29,19 @@
             </div>
 
 
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i   class="bi bi-person"></i>
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Checkout</a></li>
+                    <li><a class="dropdown-item" href="#">Favoritos</a></li>
+                    <li><a class="dropdown-item" href="#">
+                        <a class="btn btn-dark" href="#">Iniciar Sesión</a>
+                    </a></li>
+                </ul>
+            </div>
 
         </div>
 

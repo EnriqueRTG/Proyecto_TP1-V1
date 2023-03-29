@@ -4,10 +4,20 @@ body {
 
 #navbar-cliente {
   background-color: #d5cea3;
+  margin: auto;
+}
+
+#elementos-navbar{
+  text-align: justify;
+  align-items: center;
 }
 
 #imagen-logotipo {
-  width: auto;
+  width: 20rem;
+}
+
+#imagenes-carrusel img{
+  height: 30rem;
 }
 
 #footer {
