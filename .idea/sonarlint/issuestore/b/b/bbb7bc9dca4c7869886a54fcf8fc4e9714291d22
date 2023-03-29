@@ -1,0 +1,15 @@
+
+PWeb:AvoidCommentedOutCodeCheckA"Remove this commented out code.(’âƒ±8ú¹ñò0
+kphp:S103
+"KSplit this 146 characters long line (which is greater than 120 authorized).(Ë·Â«ÿÿÿÿÿ8—Ÿ¹ñò0
+kphp:S103"KSplit this 121 characters long line (which is greater than 120 authorized).(ŒÛ¤ûÿÿÿÿ8—Ÿ¹ñò0
+fphp:S103"KSplit this 150 characters long line (which is greater than 120 authorized).(äÜ°Ü8—Ÿ¹ñò0
+fphp:S103"KSplit this 122 characters long line (which is greater than 120 authorized).(¹úÔ8—Ÿ¹ñò0
+kphp:S103"KSplit this 148 characters long line (which is greater than 120 authorized).(ËîŞÈÿÿÿÿÿ8˜Ÿ¹ñò0
+fphp:S103%"KSplit this 145 characters long line (which is greater than 120 authorized).(²² ã8˜Ÿ¹ñò0
+kphp:S103."KSplit this 140 characters long line (which is greater than 120 authorized).(ÜÔ”şûÿÿÿÿ8˜Ÿ¹ñò0
+fphp:S1037"KSplit this 147 characters long line (which is greater than 120 authorized).(èƒæ8˜Ÿ¹ñò0
+kphp:S1039"KSplit this 127 characters long line (which is greater than 120 authorized).(ªİ×÷øÿÿÿÿ8˜Ÿ¹ñò0
+fphp:S103C"KSplit this 207 characters long line (which is greater than 120 authorized).(®ûêè8˜Ÿ¹ñò0
+kphp:S103D"KSplit this 210 characters long line (which is greater than 120 authorized).(Ú¡³Ğøÿÿÿÿ8˜Ÿ¹ñò0
+a	php:S1779"TReplace all non line feed end of line characters in this file "principal.php" by LF.

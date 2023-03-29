@@ -1,0 +1,9 @@
+
+qphp:S116à"WRename this field "$CSRFTokenName" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÈËöÌüÿÿÿÿ
+rphp:S116ë"XRename this field "$CSRFHeaderName" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¡õËµûÿÿÿÿ
+mphp:S116ö"XRename this field "$CSRFCookieName" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(–¤ÎŸ
+nphp:S116"TRename this field "$CSRFExpire" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÔÁÌ÷ÿÿÿÿÿ
+mphp:S116Œ"XRename this field "$CSRFRegenerate" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¶‹ÆŒ
+pphp:S116—"VRename this field "$CSRFRedirect" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ë®å÷şÿÿÿÿ
+pphp:S116ª"VRename this field "$CSRFSameSite" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(®ûÅÿÿÿÿÿ
+hphp:S116¼"TRename this field "$CSPEnabled" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(î•µ
