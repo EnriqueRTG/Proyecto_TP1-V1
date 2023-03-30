@@ -1,13 +1,13 @@
-<div id="carouselExample" class="carousel slide pt-3 container-sm">
+<div id="carouselExample" class="carousel slide pt-3 container-fluid">
   <div class="carousel-inner" id="imagenes-carrusel">
     <div class="carousel-item active">
-      <img src="<?php echo base_url();?>../assets/img/carousel/maquina-tatoo.jpeg" class="img-fluid rounded mx-auto d-block " alt="...">
+      <img src="<?php echo base_url();?>../assets/img/carousel/estencil.png" class="img-fluid rounded mx-auto d-block " alt="...">
     </div>
     <div class="carousel-item">
-      <img src="<?php echo base_url();?>../assets/img/carousel/tintas.webp" class="d-block w-100" alt="...">
+      <img src="<?php echo base_url();?>../assets/img/carousel/maquina.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="<?php echo base_url();?>../assets/img/carousel/los-simpsons.webp" class="d-block w-100" alt="...">
+      <img src="<?php echo base_url();?>../assets/img/carousel/fuentes.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
