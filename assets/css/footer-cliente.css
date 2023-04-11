@@ -1,0 +1,17 @@
+#footer-cliente {
+  background-color: #f0a04b;
+}
+
+p{
+  color: #183a1d;
+}
+
+.nav-link {
+  color: #fefbe9;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #183a1d;
+}

@@ -1,0 +1,70 @@
+/* Para dispositivos pequeños como teléfonos */
+@media (max-width: 576px) {
+    /* Reducir el tamaño de la fuente en el encabezado */
+    h1 {
+      font-size: 24px;
+    }
+    
+    /* Centrar el texto en la barra de navegación */
+    .navbar-nav {
+      text-align: center;
+    }
+    
+    /* Agregar un margen inferior a la sección de contenido principal */
+    .container.my-4 {
+      margin-bottom: 20px;
+    }
+    
+    /* Mostrar los elementos de la sección de contenido principal en una columna */
+    .row.my-4 > div[class^="col-"] {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+    
+    /* Alinear el texto en el centro de los elementos de la sección de contenido principal */
+    .card-text, .card-title {
+      text-align: center;
+    }
+    
+    /* Reducir el tamaño de las imágenes del carrusel */
+    .carousel-item img {
+      max-height: 300px;
+    }
+  }
+  
+  /* Para dispositivos medianos como tabletas */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Reducir el tamaño de la fuente en el encabezado */
+    h1 {
+      font-size: 32px;
+    }
+    
+    /* Agregar un margen inferior a la sección de contenido principal */
+    .container.my-4 {
+      margin-bottom: 40px;
+    }
+    
+    /* Mostrar los elementos de la sección de contenido principal en dos columnas */
+    .row.my-4 > div[class^="col-"] {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+    
+    /* Alinear el texto en el centro de los elementos de la sección de contenido principal */
+    .card-text, .card-title {
+      text-align: center;
+    }
+    
+    /* Reducir el tamaño de las imágenes del carrusel */
+    .carousel-item img {
+      max-height: 400px;
+    }
+  }
+  
+  /* Para dispositivos grandes como computadoras de escritorio */
+  @media (min-width: 769px) {
+    /* Ajustar el tamaño de las imágenes del carrusel */
+    .carousel-item img {
+      max-height: 500px;
+    }
+  }

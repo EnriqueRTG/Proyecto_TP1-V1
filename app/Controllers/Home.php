@@ -12,6 +12,7 @@ class Home extends BaseController
             'title' =>  'Principal - Under The Skin',
         ];
 
-        return view('/components/head', $data).view('/components/navbar-cliente', $data).view('/components/carousel', $data).view('/components/header').view('/pages/principal').view('/components/footer-cliente');
+        return view('/components/head', $data) . view('/components/navbar-cliente', $data) . view('/components/carousel', $data) .  view('/secctions/home-welcome-secction') . view('/secctions/home-fecture-secction') . view('/components/footer-cliente');
     }
+
 }
