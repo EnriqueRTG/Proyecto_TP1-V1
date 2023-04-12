@@ -1,0 +1,35 @@
+#contenedor-introduccion{
+    background: #FFE6C7;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+#contenedor-introduccion-titulo{
+    margin: .2rem auto .1rem auto;
+    text-align: center;
+}
+
+#contenedor-introduccion-resumen{
+    text-align: justify;
+    margin: .1rem 2rem .1rem 2rem;
+    padding: 1rem;
+}
+
+#contenedor-introduccion-boton{
+    text-align: center;
+    margin: .1rem;
+}
+
+.btn-primary{
+    margin-bottom: 1rem;
+    background-color: #263A29;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.btn-primary:hover{
+    margin-bottom: 1rem;
+    background-color: #FF6000;
+    color: black;
+}

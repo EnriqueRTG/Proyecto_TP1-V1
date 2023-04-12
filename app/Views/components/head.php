@@ -24,8 +24,12 @@
   <link href="<?php echo base_url(); ?>assets/css/media-queries.css" rel="stylesheet">
 
   <!-- Mis estilos personalizados -->
+  <link href="<?php echo base_url(); ?>assets/css/background.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/navbar.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/css/introduccion-principal.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/css/caracteristicas-principal.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/footer-cliente.css" rel="stylesheet">
+
 
   <title><?= esc($title) ?></title>
   

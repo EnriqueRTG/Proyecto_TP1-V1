@@ -1,4 +1,4 @@
-<div id="carouselExample" class="carousel slide pt-3 container-fluid">
+<div id="carouselExample" class="carousel slide container-fluid">
   <div class="carousel-inner" id="imagenes-carrusel">
 
     <div class="carousel-item active">
