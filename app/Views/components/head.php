@@ -14,15 +14,6 @@
   <!-- Bootstrap -->
   <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Fuente -->
-  <link herf="<?php echo base_url(); ?>assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf" rel="stylesheet" type="text/css">
-
-  <!-- Bootstrap icons -->
-  <link href="<?php echo base_url(); ?>assets/icons/node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-  <!-- mediaqueries -->
-  <link href="<?php echo base_url(); ?>assets/css/media-queries.css" rel="stylesheet">
-
   <!-- Mis estilos personalizados -->
   <link href="<?php echo base_url(); ?>assets/css/background.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/navbar.css" rel="stylesheet">
@@ -30,9 +21,17 @@
   <link href="<?php echo base_url(); ?>assets/css/caracteristicas-principal.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/footer-cliente.css" rel="stylesheet">
 
+  <!-- Fuente -->
+  <link herf="<?php echo base_url(); ?>assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap icons -->
+  <link href="<?php echo base_url(); ?>assets/icons/node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- mediaqueries -->
+  <!--<link href="<?php echo base_url(); ?>assets/css/media-queries.css" rel="stylesheet">-->
 
   <title><?= esc($title) ?></title>
-  
+
 </head>
 
 <body>

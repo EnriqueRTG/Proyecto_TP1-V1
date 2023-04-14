@@ -3,14 +3,22 @@
 
     <div class="container">
 
-        <a class="navbar-brand" href="#">
-            <img id="imagen-logotipo" src="<?php echo base_url(); ?>assets/img/logo/logo.png" alt="Logo">
-        </a>
+        <div class="d-flex align-items-center">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler ms-4 me-2 d-flex d-lg-none flex-column justify-content-around collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+
+            <a class="navbar-brand ms-2 me-4" href="#">
+                <img class=" img-fluid" id="imagen-logotipo" src="<?= base_url(); ?>assets/img/logo/logo.png" alt="Logo">
+            </a>
+
+        </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Principal</a>
                 </li>
