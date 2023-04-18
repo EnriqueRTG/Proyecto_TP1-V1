@@ -18,11 +18,10 @@
     </section>
 
     <section id="contenedor-logo-footer" class="row justify-content-center">
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <a href="<?php echo base_url(); ?>" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
         <img id="imagen-logotipo" src="<?php echo base_url(); ?>assets/img/logo/logo.png" class="img-fluid">
       </a>
     </section>
-
 
     <section class="row py-2">
 
@@ -55,12 +54,7 @@
 
 </footer>
 
-<script src="<?php echo base_url(); ?>assets/js/jquery-3.6.3.min.js"></script>
-
-<!-- Separate Popper and Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
+<script src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
 
 </body>
 

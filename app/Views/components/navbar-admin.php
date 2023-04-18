@@ -1,31 +1,32 @@
-<nav class="navbar navbar-expand-lg" id="navbar-cliente">
-    <div class="container-fluid" id="navbar-cliente">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
 
-        <div class="d-flex gx-3">
-            <button class="navbar-toggler m-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand mx-5" href="<?php echo base_url(); ?>">
+        <div class=" d-flex">
+            <a class="navbar-brand ms-2 me-4" href="#">
                 <img class=" img-fluid" id="imagen-logotipo" src="<?= base_url(); ?>assets/img/logo/logo.png" alt="Logo">
             </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
 
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="<?php echo base_url(); ?>">Principal</a>
+                    <a class="nav-link active" aria-current="page" href="#">Principal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('sobre'); ?>">Quienes Somos</a>
+                    <a class="nav-link" href="#">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercializacion</a>
+                    <a class="nav-link" href="#">Comercializacion</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('contacto'); ?>">Contacto</a>
+                    <a class="nav-link" href="#">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Terminos y Usos</a>
+                    <a class="nav-link" href="#">Terminos y Usos</a>
                 </li>
                 <!-- ver su integracion para la segunda etapa-->
                 <!--

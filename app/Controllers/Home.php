@@ -12,7 +12,6 @@ class Home extends BaseController
             'title' =>  'Principal - Tattoo Supply Store',
         ];
 
-        return view('/components/head', $data) . view('/components/navbar-cliente', $data) . view('/components/carousel', $data) .  view('/secctions/home-welcome-secction') . view('/secctions/home-fecture-secction') . view('/components/footer-cliente');
+        return view('/components/header', $data) . view('/components/navbar-cliente', $data) . view('/pages/principal', $data) . view('/components/footer-cliente');
     }
-
 }

@@ -1,0 +1,46 @@
+#ctr-presentacion {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#ctr-presentacion-card {
+  /*background: rgb(168, 121, 57);
+  background: linear-gradient(
+    17deg,
+    rgba(168, 121, 57, 1) 0%,
+    rgba(245, 196, 24, 1) 50%,
+    rgba(245, 242, 71, 1) 100%
+  );
+  text-align: justify;
+  */
+
+  
+}
+
+#ctr-presentacion-card-header {
+    text-align: center;
+}
+
+#ctr-presentacion-card-body {
+  font-size: large;
+  font-weight: 600;
+}
+
+#ctr-presentacion-card-body a{
+    text-align: center;
+}
+
+#ctr-presentacion-card-boton {
+    text-align: center;
+}
+
+.btn-primary {
+  background-color: #263a29;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #ff6000;
+  color: black;
+}
