@@ -22,7 +22,7 @@
 </section>
 
 <!-- seccion de la pagina principal  con presentacion-->
-<section class="container glassmorfism" id="ctr-presentacion">
+<section class="container" id="ctr-presentacion">
     <div class="card" id="ctr-presentacion-card">
         <div class="card-header" id="ctr-presentacion-card-header">
             <p class="display-5 fw-bold">Bienvenido</p>
@@ -43,8 +43,8 @@
 </section>
 
 <!-- seccion de la pagina principal  con principales productos ofrecidos-->
-<section class="container text-center" id="contenedor-caracteristicas">
-    <div class="row" id="contenedor-caracteristicas-primera-fila">
+<section class="container" id="contenedor-caracteristicas">
+    <div class="row mt-4 gy-3" id="contenedor-caracteristicas-primera-fila">
         <div class="col">
             <div class="card">
                 <img src="<?php echo base_url(); ?>assets/img/fecture/maquina-tatuar.png" alt="" class="card-img-top">
@@ -73,7 +73,7 @@
             </div>
         </div>
     </div>
-    <div class="row" id="contenedor-caracteristicas-segunda-fila">
+    <div class="row mt-4 gy-3" id="contenedor-caracteristicas-segunda-fila">
         <div class="col">
             <div class="card">
                 <img src="<?php echo base_url(); ?>assets/img/fecture/mobiliario.png" alt="" class="card-img-top">

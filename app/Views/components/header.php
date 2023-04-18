@@ -17,13 +17,20 @@
   <!-- Mis estilos personalizados -->
   <link href="<?php echo base_url(); ?>assets/css/background.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/navbar.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/css/cards.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/principal/presentacion.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/footer-cliente.css" rel="stylesheet">
 
   <!-- Bootstrap icons -->
   <link href="<?php echo base_url(); ?>assets/icons/node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <!-- Fuente -->
-  <link herf="<?php echo base_url(); ?>assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf" rel="stylesheet" type="text/css">
+  
+  <!-- Fuente 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  -->
+
+  <link herf="<?php echo base_url(); ?>assets/fonts/Chivo_Mono/ChivoMono-VariableFont_wght.ttf" rel="stylesheet" type="text/css">
 
   <title><?= esc($title) ?></title>
 

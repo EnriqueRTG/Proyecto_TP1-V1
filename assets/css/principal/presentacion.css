@@ -3,18 +3,16 @@
   margin-bottom: 1rem;
 }
 
-#ctr-presentacion-card {
-  /*background: rgb(168, 121, 57);
-  background: linear-gradient(
-    17deg,
-    rgba(168, 121, 57, 1) 0%,
-    rgba(245, 196, 24, 1) 50%,
-    rgba(245, 242, 71, 1) 100%
-  );
+#ctr-presentacion-card{
+  background-color: var(--bg-white);
+  border: var(--border);
+  border-radius: var(--br);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 10px 20px 5px rgba(0,0,0,0.5);
   text-align: justify;
-  */
-
-  
+  margin: .5rem;
+  padding: 0.3rem;
+  color: #F6F1F1;
 }
 
 #ctr-presentacion-card-header {

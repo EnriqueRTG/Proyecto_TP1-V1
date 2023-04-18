@@ -1,19 +1,22 @@
+<!--Navbar-->
 <nav class="navbar navbar-expand-lg" id="navbar-cliente">
-    <div class="container-fluid" id="navbar-cliente">
+    <div class="container-fluid">
 
-        <div class="d-flex gx-3">
-            <button class="navbar-toggler m-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <!--Bloque que contendra a la imagen y navbar-toggler-->
+        <div class="d-flex">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mx-5" href="<?php echo base_url(); ?>">
-                <img class=" img-fluid" id="imagen-logotipo" src="<?= base_url(); ?>assets/img/logo/logo.png" alt="Logo">
+
+            <a class="navbar-brand ms-4" href="<?php echo base_url(); ?>">
+                <img class="img-fluid" id="imagen-logotipo" src="<?= base_url(); ?>assets/img/logo/logo.png" alt="Logo">
             </a>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-3 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 120px;" id="lista-nav-items">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="<?php echo base_url(); ?>">Principal</a>
+                    <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">Principal</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo base_url('sobre'); ?>">Quienes Somos</a>
@@ -30,7 +33,7 @@
                 <!-- ver su integracion para la segunda etapa-->
                 <!--
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-lin dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Link
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">

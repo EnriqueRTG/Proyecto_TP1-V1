@@ -1,3 +1,13 @@
 #navbar-cliente {
   background-color: #ff6000;
 }
+
+.nav-link {
+  color: #F6F1F1 !important;
+
+}
+
+.nav-link:hover {
+  color: #0A4D68 !important;
+  
+}
