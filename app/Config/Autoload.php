@@ -43,7 +43,7 @@ class Autoload extends AutoloadConfig
         APP_NAMESPACE => APPPATH, // For custom app namespace
         'Config'      => APPPATH . 'Config',
         'CodeIgniter' => SYSTEMPATH,
-            'App'         => APPPATH
+        'App'         => APPPATH
     ];
 
     /**
