@@ -3,7 +3,7 @@
   margin-bottom: 1rem;
 }
 
-#ctr-presentacion-card{
+.ctr-presentacion-card{
   background-color: var(--bg-white);
   border: var(--border);
   border-radius: var(--br);
@@ -15,22 +15,11 @@
   color: #F6F1F1;
 }
 
-#ctr-presentacion-card-header {
-    text-align: center;
+#ctr-presentacion-card-header{
+  text-align: center;
+  font-weight: 900;
 }
 
-#ctr-presentacion-card-body {
-  font-size: large;
-  font-weight: 600;
-}
-
-#ctr-presentacion-card-body a{
-    text-align: center;
-}
-
-#ctr-presentacion-card-boton {
-    text-align: center;
-}
 
 .btn-primary {
   background-color: #263a29;

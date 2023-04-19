@@ -8,7 +8,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a class="navbar-brand ms-4" href="<?php echo base_url(); ?>">
+            <a class="navbar-brand ms-lg-5 ms-3" href="<?php echo base_url(); ?>">
                 <img class="img-fluid" id="imagen-logotipo" src="<?= base_url(); ?>assets/img/logo/logo.png" alt="Logo">
             </a>
         </div>

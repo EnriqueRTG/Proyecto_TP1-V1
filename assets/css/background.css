@@ -1,11 +1,26 @@
-:root{
-    --bg-white: rgba(255, 255, 255, 0.363);
-    --br: 5px;
-    --border: solid 1px rgba(255, 255, 255, 0.349);
+:root {
+  --bg-white: rgba(255, 255, 255, 0.363);
+  --br: 5px;
+  --border: solid 1px rgba(255, 255, 255, 0.349);
 }
 
-body{
-    background: rgb(119,3,123);
-    background: linear-gradient(180deg, rgba(119,3,123,1) 0%, rgba(6,6,79,1) 50%, rgba(139,0,255,1) 100%); 
-    font-family: 'Chivo Mono', monospace;
+body {
+  background: rgb(119, 3, 123);
+  background: linear-gradient(
+    180deg,
+    rgba(119, 3, 123, 1) 0%,
+    rgba(6, 6, 79, 1) 50%,
+    rgba(139, 0, 255, 1) 100%
+  );
+  font-family: "Chivo Mono", monospace;
+}
+
+.nav-link {
+  color: #F6F1F1;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.nav-link:hover {
+  color: #0a4d68 !important;
 }

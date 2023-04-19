@@ -18,7 +18,7 @@
   <link href="<?php echo base_url(); ?>assets/css/background.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/navbar.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/cards.css" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>assets/css/principal/presentacion.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/css/principal.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/footer-cliente.css" rel="stylesheet">
 
   <!-- Bootstrap icons -->
