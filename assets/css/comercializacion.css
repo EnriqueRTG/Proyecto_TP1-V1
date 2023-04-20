@@ -1,0 +1,15 @@
+.accordion-button-color{
+    background-color: #210062 !important;
+    color: aliceblue !important;
+    font-size: large;
+    font-weight: 600;
+}
+
+.accordion-button-color:hover{
+    background-color: #77037B !important;
+}
+
+.accordion-button-color:v{
+    background-color: #FFD3B0 !important;
+    color: black;
+}
