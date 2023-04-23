@@ -74,9 +74,6 @@
                                             </a>
                                         </li>
                                     </ul>
-
-
-
                                 </li>
                             </ul>
                         </div>
@@ -93,44 +90,45 @@
 
                             <ul class="">
                                 <li class="">
-                                    <h5 class="">
+                                    <p class="titulo-texto-comer">
                                         Paquetes:
-                                    </h5>
-                                    <p class="">
+                                    </p>
+                                    <p class="descripcion-texto-comer">
                                         Los gastos de envío se ajustan al peso neto del articulo enviado, el costo basico comprende hasta los 5kg.
                                         Excedido dicho peso se cobra adicionales de acuerdo al excedente.
                                     </p>
                                 </li>
                                 <li class="">
-                                    <h5 class="">
+                                    <p class="titulo-texto-comer">
                                         Embalaje:
-                                    </h5>
-                                    <p class="">
-                                        El costo de del embalaje varia segun el tamanio requerido por el articulo y puede comprender un costo adicional al momento de realizar el envio.
+                                    </p>
+                                    <p class="descripcion-texto-comer">
+                                        El costo de del embalaje varia segun el tamaño requerido por el articulo y puede comprender un costo adicional al momento de realizar el envio.
                                     </p>
                                 </li>
                                 <li class="">
-                                    <h5 class="">
+                                    <p class="titulo-texto-comer">
                                         Destinos:
-                                    </h5>
-                                    <p class="">
+                                    </p>
+                                    <p class="descripcion-texto-comer">
                                         No se comercializarán envíos hacia la provincia de Tierra del Fuego. No se comercializarán envíos hacia el exterior o paises limitrofes.
                                     </p>
                                 </li>
                                 <li class="">
-                                    <h5 class="">
-                                        Tipo de Envio:
-                                    </h5>
-                                    <p class="">
-                                        El costo de del embalaje varia segun el tamanio requerido por el articulo y puede comprender un costo adicional al momento de realizar el envio.
+                                    <p class="titulo-texto-comer">
+                                        Modalidad:
+                                    </p>
+                                    <p class="descripcion-texto-comer">
+                                        Las modalidades de encomienda son Simple, Estandar, Prioritaria y Urgente. El costo asciente en el orden listado.
                                     </p>
                                 </li>
                                 <li class="">
-                                    <h5 class="">
-                                        Tipo de Envio:
-                                    </h5>
-                                    <p class="">
-                                        El costo de del embalaje varia segun el tamanio requerido por el articulo y puede comprender un costo adicional al momento de realizar el envio.
+                                    <p class="titulo-texto-comer">
+                                        Tipos de Envios:
+                                    </p>
+                                    <p class="descripcion-texto-comer">
+                                        Los envios pueden ser a domicilio o a un punto de entrega.
+                                        Tambien se puede optar por envío a contra reembolso.
                                     </p>
                                 </li>
                             </ul>
