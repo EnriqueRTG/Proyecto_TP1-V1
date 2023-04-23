@@ -6,13 +6,13 @@
     <section id="contenedor-lista-enlaces" class="row py-3">
       <ul class="nav col justify-content-center">
         <li class="nav-item">
-          <a href="#" class="nav-link px-3">Preguntas Frecuentes</a>
+          <a href="#" class="nav-link px-3 text-uppercase">Preguntas Frecuentes</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-3">Formas de Pago</a>
+          <a href="#" class="nav-link px-3 text-uppercase">Formas de Pago</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-3">Ubicacion</a>
+          <a href="#" class="nav-link px-3 text-uppercase">Ubicacion</a>
         </li>
       </ul>
     </section>

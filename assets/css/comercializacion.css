@@ -39,12 +39,16 @@
   margin-left: 1rem;
   margin-right: 1rem;
   padding: 0%;
-  
 }
 
 .img-envio{
   width: 20rem;
   height: 6rem;
+}
+
+.img-pago{
+  width: 15rem;
+  height: 9rem;
 }
 
 .boton-perzonalizado {

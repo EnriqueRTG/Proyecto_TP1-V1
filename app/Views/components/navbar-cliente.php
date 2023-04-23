@@ -15,20 +15,20 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
             <ul class="navbar-nav m-auto my-3 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 120px;" id="lista-nav-items">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">Principal</a>
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" aria-current="page" href="<?php echo base_url(); ?>">Principal</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('sobre'); ?>">Quienes Somos</a>
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" href="<?php echo base_url('sobre'); ?>">Quienes Somos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercializacion</a>
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" href="<?php echo base_url('comercializacion'); ?>">Comercializacion</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('contacto'); ?>">Contacto</a>
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" href="<?php echo base_url('contacto'); ?>">Contacto</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Terminos y Usos</a>
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" href="<?php echo base_url('terminos'); ?>">Terminos y Usos</a>
                 </li>
                 <!-- ver su integracion para la segunda etapa-->
                 <!--

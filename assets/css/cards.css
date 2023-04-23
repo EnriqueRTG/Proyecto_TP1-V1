@@ -10,6 +10,16 @@
     color: #F6F1F1;
 }
 
+.card1{
+    background: rgb(7,14,121);
+    background: linear-gradient(90deg, rgba(7,14,121,1) 0%, rgba(0,0,0,1) 60%, rgba(255,96,0,1) 100%); 
+    text-align: justify;
+    color: #F6F1F1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+}
+
 .card-title{
     text-align: center;
     font-weight: 900;
