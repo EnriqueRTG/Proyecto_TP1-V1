@@ -1,15 +1,114 @@
-.accordion-button-color{
-    background-color: #210062 !important;
-    color: aliceblue !important;
-    font-size: large;
-    font-weight: 600;
+.accordion-item {
+  border: none;
 }
 
-.accordion-button-color:hover{
-    background-color: #77037B !important;
+.accordion-button-color {
+  background-color: #210062 !important;
+  color: #f6f1f1 !important;
+  font-size: large;
+  font-weight: 600;
+  
 }
 
-.accordion-button-color:v{
-    background-color: #FFD3B0 !important;
-    color: black;
+.accordion-button-color:hover {
+  background-color: #77037b !important;
+}
+
+.accordion-body {
+  background: rgb(119, 57, 168);
+  background: linear-gradient(
+    180deg,
+    rgba(119, 57, 168, 1) 0%,
+    rgba(140, 24, 245, 1) 50%,
+    rgba(139, 71, 245, 1) 100%
+  );
+}
+
+.titulo-texto-comer {
+  color: #f6f1f1;
+  font-size: large;
+  font-weight: 800;
+}
+
+.descripcion-texto-comer {
+  color: #f6f1f1;
+  text-align: justify;
+}
+
+.lista-comer{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0%;
+  
+}
+
+.img-envio{
+  width: 20rem;
+  height: 6rem;
+}
+
+.boton-perzonalizado {
+  position: relative;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background: #350642;
+  color: #dcc2e4;
+  cursor: pointer;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.boton-perzonalizado:hover {
+  color: aqua;
+}
+
+.boton-perzonalizado span {
+  position: absolute;
+  background: aliceblue;
+  transition: 0.5s;
+}
+
+.boton-perzonalizado span:bth-child(1) {
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: -100%;
+}
+
+.boton-perzonalizado span:bth-child(2) {
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  right: -100%;
+}
+
+.boton-perzonalizado span:bth-child(3) {
+  width: 1px;
+  height: 100%;
+  bottom: -100%;
+  left: 0;
+}
+
+.boton-perzonalizado span:bth-child(4) {
+  width: 1px;
+  height: 100%;
+  top: -100%;
+  right: 0;
+}
+
+.boton-perzonalizado:hover span:bth-child(1) {
+  left: 0;
+}
+
+.boton-perzonalizado span:bth-child(2) {
+  right: 0;
+}
+
+.boton-perzonalizado span:bth-child(3) {
+  bottom: 0;
+}
+
+.boton-perzonalizado span:bth-child(4) {
+  top: 0;
 }

@@ -57,49 +57,33 @@
 <section class="container mt-4">
     <div class="row">
         <div class="card col col-lg-12" id="ctr-presentacion-card">
-            <div class="card-header" id="ctr-presentacion-card-header">
-                <p class="h2 fw-bold text-uppercase justify texto-sobre">Staff</p>
+            <div class="card-body">
+                <h5 class="card-title h3 text-uppercase texto-sobre">Staff</h5>
             </div>
 
+            <div class="row texto-sobre">
 
-
-
-
-        </div>
-    </div>
-
-    <div class="row texto-sobre">
-        <!-- card 1 -->
-
-        <div class="col col-lg-6 col-md-6 col-12">
-
-            <div class="card">
-                <img src="<?php echo base_url("assets/img/sobre-nosotros/persona-1.png") ?>" alt="Empleado #1" class="card-img img-fluid bg-secondary" />
-                <div class="card-body">
-                    <h5 class="card-title texto-sobre">Juan Carlos Pastore</h5>
-                    <p class="card-text text-center texto-sobre">Propietario</p>
+                <div class="col col-lg-6 col-md-6 col-12">
+                    <div class="card">
+                        <img src="<?php echo base_url("assets/img/sobre-nosotros/persona-1.png") ?>" alt="Empleado #1" class="card-img img-fluid bg-secondary" />
+                        <div class="card-body">
+                            <h5 class="card-title texto-sobre">Juan Carlos Pastore</h5>
+                            <p class="card-text text-center texto-sobre">Propietario</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="col col-lg-6 col-md-6 co-12">
-
-            <div class="card">
-                <img src="<?php echo base_url("assets/img/sobre-nosotros/persona-2.png") ?>" alt="Empleado #2" class="card-img img-fluid bg-secondary" />
-                <div class="card-body">
-                    <h5 class="card-title texto-sobre">Romina Sol Almada</h5>
-                    <p class="card-text text-center texto-sobre">Propietaria</p>
+                <div class="col col-lg-6 col-md-6 co-12">
+                    <div class="card">
+                        <img src="<?php echo base_url("assets/img/sobre-nosotros/persona-2.png") ?>" alt="Empleado #2" class="card-img img-fluid bg-secondary" />
+                        <div class="card-body">
+                            <h5 class="card-title texto-sobre">Romina Sol Almada</h5>
+                            <p class="card-text text-center texto-sobre">Propietaria</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
-
-
-
-    </div>
-    </article>
-
-
-    </div>
     </div>
 </section>

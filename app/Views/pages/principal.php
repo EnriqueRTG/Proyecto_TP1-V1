@@ -28,9 +28,9 @@
             <p class="display-5 fw-bold">Bienvenido</p>
         </div>
         <div class="card-body" id="ctr-presentacion-card-body">
-            <p class="card-text">Somos una empresa joven dedicada a la comercialización de maquinas, tintas, insumos y todo aquello que necesites
-                para equipar tu salon y puedas desarrollar tu actividad como un profesional.
-                En <span class="fw-bold">Tattoo Supply Store</span> estamos dispuestos a asesorarte y ofrecerte la mejor atencion.
+            <p class="card-text">Somos una empresa joven dedicada a la comercialización de máquinas, tintas, insumos y todo aquello 
+                que necesites para equipar tu salón y puedas desarrollar tu actividad como un profesional.
+                En <span class="fw-bold">Tattoo Supply Store</span> estamos dispuestos a asesorarte y ofrecerte la mejor atención.
                 Trabajamos ofreciendo los mejores productos, nacionales como importados, tales como: Cheyenne, Dynamic Ink, EZ, etc.
             </p>
             <!-- implementacion segunda parte
@@ -50,8 +50,8 @@
             <div class="card">
                 <img src="<?php echo base_url(); ?>assets/img/fecture/maquina-tatuar.png" alt="Maquina de Tatuar" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Maquinas</h5>
-                    <p class="card-text">Maquinas de bobina, rotativas y pen. Nacionales e importadas.</p>
+                    <h5 class="card-title text-uppercase">Máquinas</h5>
+                    <p class="card-text">Máquinas de bobina, rotativas y pen. Nacionales e importadas.</p>
                 </div>
             </div>
         </div>
@@ -59,8 +59,8 @@
             <div class="card">
                 <img src="<?php echo base_url(); ?>assets/img/fecture/fuente.png" alt="Fuente de poder" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Fuentes</h5>
-                    <p class=" card-text">Fuentes alambricas e inhalambricas, digitales y analogicas.</p>
+                    <h5 class="card-title text-uppercase">Fuentes</h5>
+                    <p class=" card-text">Fuentes alámbricas e inalámbricas, digitales y analógicas.</p>
                 </div>
             </div>
         </div>
@@ -68,8 +68,8 @@
             <div class="card">
                 <img src="<?php echo base_url(); ?>assets/img/fecture/tintas.png" alt="Tintas para tatuar" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Tintas</h5>
-                    <p class=" card-text">Tintas en una amplia gama de colores y vegan.</p>
+                    <h5 class="card-title text-uppercase">Tintas</h5>
+                    <p class=" card-text">Tintas en una amplia gama de colores.</p>
                 </div>
             </div>
         </div>
@@ -78,8 +78,8 @@
             <div class="card">
                 <img src="<?php echo base_url(); ?>assets/img/fecture/mobiliario.png" alt="Camilla" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Mobiliario</h5>
-                    <p class=" card-text">Camillas, bancos, sillas, apoya brazos y muebles para salon.</p>
+                    <h5 class="card-title text-uppercase">Mobiliario</h5>
+                    <p class=" card-text">Camillas, bancos, sillas, apoya brazos y muebles para salón.</p>
                 </div>
             </div>
         </div>
@@ -87,8 +87,8 @@
             <div class="card">
                 <img src="<?php echo base_url(); ?>assets/img/fecture/insumos-accesorios.png" alt="Insumos y accesorios" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Insumo y Accesorios</h5>
-                    <p class=" card-text">Guantes, tetinas, bandas elasticas, baselina, etc.</p>
+                    <h5 class="card-title text-uppercase">Insumo y Accesorios</h5>
+                    <p class=" card-text">Guantes, tetinas, bandas elásticas, vaselina, etc.</p>
                 </div>
             </div>
         </div>
@@ -96,8 +96,8 @@
             <div class="card ">
                 <img src="<?php echo base_url(); ?>assets/img/fecture/kits.png" alt="Kit" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Kits/Combos</h5>
-                    <p class=" card-text">Kits de inicio o upgrate. Combos para insumos y herramientas</p>
+                    <h5 class="card-title text-uppercase">Kits/Combos</h5>
+                    <p class=" card-text">Kits de inicio o actualización. Combos para insumos y herramientas</p>
                 </div>
             </div>
         </div>
