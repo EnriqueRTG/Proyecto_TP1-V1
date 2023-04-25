@@ -34,6 +34,7 @@ $routes->get('/sobre', 'Sobre::index');
 $routes->get('/comercializacion', 'Comercializacion::index');
 $routes->get('/contacto', 'Contacto::index');
 $routes->get('/terminos', 'Terminos::index');
+$routes->get('/garantia', 'Garantia::index');
 
 
 /*

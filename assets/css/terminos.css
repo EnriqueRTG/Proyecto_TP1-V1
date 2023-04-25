@@ -1,0 +1,16 @@
+.elemento-lista-ordenada{
+    text-align: justify;
+}
+
+.titulo-elemento-terminos{
+    font-weight: bold;
+    font-size: large;
+}
+
+.descripcion-elemento-terminos{
+    font-weight: 500;
+}
+
+.lista-no-ordenada-terminos{
+    list-style-type: circle;
+}
