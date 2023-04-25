@@ -1,0 +1,35 @@
+.btn {
+  background: rgb(7, 14, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 14, 121, 1) 0%,
+    rgba(0, 0, 0, 1) 60%
+  );
+  color: #f6f1f1;
+  border-color: rgb(7, 14, 121);
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(255, 96, 0, 1) 100%
+  );
+  color: #f6f1f1;
+  border-color: rgba(255, 96, 0, 1);
+}
+
+.etiqueta{
+    background: rgb(7, 14, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 14, 121, 1) 0%,
+    rgba(0, 0, 0, 1) 60%
+  );
+  color: #f6f1f1 !important;
+  font-size: large;
+  font-weight: bold;
+  padding: 1rem;
+}

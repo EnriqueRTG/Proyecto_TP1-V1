@@ -4,6 +4,7 @@
   <div class="container">
 
     <section id="contenedor-lista-enlaces" class="row py-3">
+      <!--
       <ul class="nav col justify-content-center">
         <li class="nav-item">
           <a href="#" class="nav-link px-3 text-uppercase">Preguntas Frecuentes</a>
@@ -15,6 +16,7 @@
           <a href="#" class="nav-link px-3 text-uppercase">Ubicacion</a>
         </li>
       </ul>
+-->
     </section>
 
     <section id="contenedor-logo-footer" class="row py-1 text-center">
@@ -38,10 +40,10 @@
           <li>
             <p class=" fs-5">Seguinos en:</p>
           </li>
-          <li class="nav-item">
+          <li class="nav-item icono-footer">
             <a href="#" class="nav-link px-3"><i class="bi bi-instagram"></i></a>
           </li>
-          <li class="nav-item align-top">
+          <li class="nav-item icono-footer">
             <a href="#" class="nav-link px-3"><i class="bi bi-facebook"></i></a>
           </li>
         </ul>

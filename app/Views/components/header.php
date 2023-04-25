@@ -21,6 +21,7 @@
   <link href="<?php echo base_url(); ?>assets/css/principal.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/sobre.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/comercializacion.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/css/contacto.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/footer-cliente.css" rel="stylesheet">
 
   <!-- Bootstrap icons -->

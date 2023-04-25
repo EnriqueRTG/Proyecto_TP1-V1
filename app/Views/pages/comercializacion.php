@@ -60,17 +60,17 @@
                             <ul class="lista-comercializacion row">
                                 <li class="col col-lg-4 col-md-6 col-12 py-2">
                                     <a class="" href="https://www.oca.com.ar/Productos/Paqueteria" target="_blank" rel="noopener noreferrer">
-                                        <img class=" img-fluid" width="100%" height="44px" src="<?php echo base_url() ?>/assets/img/envio/oca.png" alt="OCA">
+                                        <img class=" img-fluid" src="<?php echo base_url() ?>/assets/img/envio/oca.png" alt="OCA">
                                     </a>
                                 </li>
                                 <li class="col col-lg-4 col-md-6 col-12 py-2">
                                     <a class="" href="https://www.andreani.com/#!/pymes/encomienda" target="_blank" rel="noopener noreferrer">
-                                        <img class=" img-fluid" width="100%" height="44px" src="<?php echo base_url() ?>/assets/img/envio/andreani.png" alt="Andreani">
+                                        <img class=" img-fluid" src="<?php echo base_url() ?>/assets/img/envio/andreani.png" alt="Andreani">
                                     </a>
                                 </li> 
                                 <li class="col col-lg-4 col-md-6 col-12 py-2">
                                     <a class="" href="https://www.correoargentino.com.ar/servicios/paqueteria" target="_blank" rel="noopener noreferrer">
-                                        <img class=" img-fluid" width="100%" height="44px" src="<?php echo base_url() ?>/assets/img/envio/correo-argentino.jpg" alt="Correo Argentino">
+                                        <img class=" img-fluid" src="<?php echo base_url() ?>/assets/img/envio/correo-argentino.png" alt="Correo Argentino">
                                     </a>
                                 </li>
                             </ul>
@@ -186,7 +186,7 @@
                                 por lo que nosotros no almacenamos ningún tipo de información relacionada a los mismos.
                             </p>
                         </li>
-                        <li class="">
+                        <li class="text-center">
                             <img class="img-fluid imagen-pagos" src="<?php echo base_url() ?>/assets/img/metodos-pagos/formas-pago.png" alt="">
                         </li>
                     </ul>
