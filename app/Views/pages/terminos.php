@@ -1,386 +1,313 @@
 <div class="card1 container-fluid">
-    <h5 class="card-title text-uppercase texto">TÉRMINOS Y USOS</h5>
+    <h5 class="card-title text-uppercase texto">TÉRMINOS Y CONDICIONES</h5>
 </div>
 
-<section class="container">
-    <div class=" card ">
-        <p>
-            Bienvenido/a a nuestra tienda en línea de insumos y materiales de tatuaje. Al acceder y utilizar este sitio web, usted acepta los términos y condiciones que se detallan a continuación.
+<section class="container card m-auto">
+    <div class=" text-justify mx-3">
+        <p class="h3 text-uppercase text-center mt-2">
+            POLÍTICA DE PRIVACIDAD
         </p>
-        <ol>
+        <p>
+            Tattoo Supply Store ha implementado todos los procesos requeridos a los efectos de Protección de los Datos Personales de los Usuarios,
+            con el objeto de evitar el mal uso, alteración, acceso no autorizado y/o robo de los Datos Personales suministrados por el Usuario a Tattoo Supply Store.
+            Sin perjuicio de lo expresado en el presente, el Usuario acepta y reconoce que las medidas de seguridad en Internet no son inviolables.
+        </p>
+        <p>
+            Todo dato que suministren los Usuarios será empleado para establecer la relación contractual entre los Usuarios y Tattoo Supply Store,
+            y también serán incluidos en una Base de Datos de Tattoo Supply Store (la “Base”), con el objeto de identificar perfiles a los efectos de segmentar
+            dicha Base con fines comerciales, promocionales y mejorar las ofertas a los Usuarios, quienes prestan conformidad mediante la utilización del Sitio de tales fines.
+        </p>
+        <p>
+            En caso que el Usuario contrate a través del Sitio de Tattoo Supply Store un servicio y/o producto brindado por un tercero (en adelante, “Tercero”),
+            el Usuario reconoce que al completar sus datos personales autoriza expresamente a Tattoo Supply Store a suministrar a dicho Tercero sus datos personales
+            (Nombre y Apellido, DNI, Teléfono, domicilio y correo electrónico) sólo a los efectos de la prestación del servicio y la facturación de dichos bienes y/o servicios
+            y a la entrega de los mismos. Toda información suministrada por el Usuario será tratada por Tattoo Supply Store conforme términos previstos en la
+            Ley Nacional de Protección de Datos Personales Nª 25.326.
+        </p>
+        <p>
+            La Base será inscripta en el Registro Nacional de Bases de Datos Personales por Tattoo Supply Store. Los Usuarios que suministren sus datos personales
+            tendrán la posibilidad de ejercer su derecho de acceso a los mismos, en forma gratuita, con un intervalo no inferior a seis (6) meses, salvo que se encuentre
+            comprendido en el artículo 14, inc. 3 de la Ley Número 25.326 en el sentido que acredite un interés legítimo.
+        </p>
+        <p class=" fs-5">
+            Eliminación de datos personales:
+        </p>
+        <p>
+            Para solicitar la eliminación de sus datos personales dentro de la Web de Tattoo Supply Store debes enviar un mail a tattoosupplystoreok@gmail.com ,
+            desde el correo que desea solicitar la baja. Una vez comprobada la identidad de quien solicita. Se procede a borrar sus datos de nuestra plataforma.
+        </p>
+        <p>
+            De conformidad con lo establecido por la Res. AAIP 14/2018 se le hace saber que "La AGENCIA DE ACCESO A LA INFORMACIÓN PÚBLICA, Órgano de Control de la Ley Nº 25.326,
+            tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales”.
+            www.argentina.gob.ar/aaip
+        </p>
+        <p>
+            Asimismo, se hace saber al Usuario que el presente sitio podrá poseer accesos directos a otros sitios externos, propiedad de terceros, y cuyos
+            contenidos y políticas de privacidad son ajenos a Tattoo Supply Store (en adelante, los "Sitios Externos"). Por lo tanto, se recomienda que,
+            cuando el Usuario resuelva acceder a dichos Sitios Externos, siempre consulte en forma previa las respectivas políticas de privacidad antes de
+            proporcionar su información y Datos Personales. Tattoo Supply Store no será responsable por el uso que los propietarios de dichos Sitios Externos den a los
+            Datos Personales que el Usuario y/o Visitante resuelva proveer en forma voluntaria a los mismos.
+        </p>
+        <hr class="h3">
+        <p>
+            TÉRMINOS Y CONDICIONES DE USO DE ESTE SITIO
+        </p>
+        <p>
+            Bienvenidos a nuestro sitio web: www.TattooSupplyStore.com.ar (de ahora en más el “Sitio”). Seguidamente se detallarán los términos y condiciones que van a
+            regir a los efectos de la utilización del Sitio y/o los contratos y transacciones que se realicen en este Sitio (los “Servicios”)
+            por parte de los usuarios, sean personas físicas o empresas (en adelante “Usuario y/o Usuarios”), y que regirán los derechos y obligaciones entre los Usuarios y Tattoo Supply Store.
+        </p>
+        <ol class="">
             <li>
-                <p>
-                    Condiciones de uso
-                </p>
-                <p>
-                    El uso de este sitio web está sujeto a las leyes y regulaciones aplicables, así como a estos términos y condiciones.
-                    El usuario se compromete a utilizar este sitio web de manera legal y ética, y a no utilizarlo con fines ilegales o inapropiados.
-                    Nos reservamos el derecho de modificar, actualizar o retirar este sitio web, así como sus términos y condiciones, en cualquier momento y sin previo aviso.
-                </p>
+                Aceptación de los términos y condiciones de uso:
+                <br class="h2">
+                El uso del Sitio implica la declaración por parte del Usuario de que comprende, conoce y acepta los términos y condiciones que a continuación se detallan,
+                y por ello se obliga expresamente a cumplir con los mismos. Dichos términos y condiciones, así como sus modificaciones, estarán vigentes en
+                forma inmediata una vez publicadas en el Sitio. En caso de que el Usuario no comprenda cabalmente o no esté de acuerdo con los Términos y Condiciones
+                que rigen el uso del Sitio, debe abstenerse de utilizarlo.
             </li>
             <li>
-                <p>
-                    Información del usuario
-                </p>
-                <p>
-                    Al crear una cuenta en nuestro sitio web, el usuario se compromete a proporcionar información precisa y actualizada, incluyendo su dirección de correo electrónico y detalles de facturación y envío.
-                    El usuario es responsable de mantener la confidencialidad de su cuenta y contraseña, y de todas las actividades que ocurran en su cuenta.
-                    Nos reservamos el derecho de suspender o cancelar cualquier cuenta si se determina que el usuario ha violado estos términos y condiciones.
-                </p>
+                Usuarios que pueden utilizar los servicios del Sitio:
+                <br>
+                Los Servicios sólo estarán disponibles para personas que cuenten con capacidad legal para contratar. No podrán utilizarlos aquellas personas que
+                carezcan de dicha capacidad y los menores de edad. En el caso de Usuarios de empresas, la persona física registrada como usuario,
+                deberá contar con capacidad para contratar a nombre de la entidad y de obligar a la misma bajo los términos de las presentes condiciones de uso.
+                El uso del Sitio por parte de quienes carecieran de capacidad legal para hacerlo será responsabilidad de los padres, tutores, curadores o de quienes
+                los representen legalmente.
             </li>
             <li>
-                <p>
-                    Productos y precios
-                </p>
-                <p>
-                    Los productos y precios que se muestran en este sitio web están sujetos a cambios sin previo aviso.
-                    Nos esforzamos por garantizar la exactitud de la información del producto, pero no podemos garantizar que la información sea completa o actualizada en todo momento.
-                    Nos reservamos el derecho de limitar la cantidad de productos que un usuario puede comprar, así como de rechazar cualquier pedido por cualquier motivo.
-                </p>
+                Registración de Usuarios y contraseñas:
+                <br>
+                Es obligatorio completar el formulario de registración en todos sus campos con datos válidos para la adquisición de productos y/o servicios ofrecidos en este
+                Sitio (“Datos Personales”).
+                <br>
+                El usuario, declara que la información que brindará al remitir el pedido de registración (ya sea completando el formulario y/o asociando sus cuentas de Google o Facebook)
+                será precisa, válida, correcta y actual, siendo exclusiva responsabilidad del Usuario verificar que sus datos sean correctamente ingresados en el Sitio.
+                <br>
+                Asimismo, el Usuario se compromete a informar de manera inmediata y fehaciente respecto de cualquier cambio, manteniendo sus Datos Personales actualizados,
+                siendo a su vez enteramente responsable frente a Tattoo Supply Store por los daños y perjuicios que el incumplimiento de dicha obligación pudiere acarrearle,
+                incluyendo, pero no limitándose, a costos de ubicación física del Usuario, costos de intimaciones y citaciones, etc.
+                <br>
+                El Usuario accederá a su cuenta personal ("Cuenta") mediante el ingreso de su Apodo y clave de seguridad personal elegida ("Contraseña"). Los mismos podrán ser
+                reemplazados por los que emplee para Google o Facebook. La Cuenta es personal, única e intransferible, y está prohibido que un mismo Usuario registre o
+                posea más de una Cuenta. En caso que Mercado Libre detecte distintas Cuentas que contengan datos coincidentes o relacionados, podrá cancelar, suspender o inhabilitarlas.
+                <br>
+                Por medio de la aceptación de los presentes Términos y Condiciones, el Usuario, reconoce y acepta que es el único responsable de mantener la confidencialidad de
+                su Contraseña. En consecuencia, el Usuario acepta que será el único responsable ante Tattoo Supply Store de todas y cada una de las actividades que se efectúen en
+                su Cuenta en el Sitio. El Usuario deberá notificar de inmediato a Tattoo Supply Store cualquier uso no autorizado de su Contraseña o Cuenta del que tenga conocimiento,
+                por correo electrónico a la dirección de email XXX, debiendo especificar en detalle toda la información con la que cuente respecto del uso no autorizado de su contraseña.
+                <br>
+                En el caso de Usuarios de empresas, podrán utilizar el Sitio si son registrados a nombre de una persona física, que cuente con capacidad para contratar a
+                nombre de la entidad y de obligar a la misma bajo los términos de las presentes condiciones de uso.
+                <br>
+                Tattoo Supply Store se reserva el derecho de rechazar cualquier solicitud de registración o de cancelar una registración previamente aceptada, sin que esté obligado
+                a comunicar o exponer las razones de su decisión y sin que ello genere algún derecho a indemnización o resarcimiento.
+
             </li>
             <li>
-                <p>
-                    Envío y devoluciones
-                </p>
-                <p>
-                    Los tiempos de envío y los costos de envío se calcularán en función de la dirección de envío del usuario y el peso y tamaño del pedido.
-                    Los usuarios pueden devolver los productos dentro de los 15 días posteriores a la entrega, siempre que los productos estén en su estado original y sin usar. Se aplicarán cargos por reabastecimiento y envío.
-                    Los productos dañados o defectuosos deben ser reportados dentro de los 3 días posteriores a la entrega para poder ser elegibles para una devolución o reemplazo.
-                </p>
+                Datos personales del Usuario:
+                <br>
+                Para utilizar los Servicios ofrecidos por Tattoo Supply Store, los Usuarios deberán facilitar determinados datos de carácter personal.
+                Tattoo Supply Store ha implementado todos los procesos requeridos a los efectos de Protección de los Datos Personales de los Usuarios,
+                con el objeto de evitar el mal uso, alteración, acceso no autorizado y/o robo de los Datos Personales suministrados por el Usuario a Tattoo Supply Store.
+                Sin perjuicio de lo expresado en el presente, el Usuario acepta y reconoce que las medidas de seguridad en Internet no son inviolables. Para mayor información
+                sobre la privacidad de los Datos Personales y casos en los que será revelada la información personal, se pueden consultar nuestras Políticas de Privacidad,
+                que integran el presente.
             </li>
             <li>
-                <p>
-                    Propiedad intelectual
-                </p>
-                <p>
-                    Todo el contenido, incluyendo imágenes, texto, gráficos, logotipos y diseños, en este sitio web está protegido por derechos de autor y otras leyes de propiedad intelectual.
-                    El usuario no puede reproducir, distribuir, modificar, transmitir o utilizar el contenido de este sitio web con fines comerciales sin nuestro consentimiento previo por escrito.
-                </p>
+                Compra de Productos:
+                <br>
+                El Usuario deberá formular su pedido, escogiendo los productos que desea comprar e indicando respecto de cada ítem la cantidad que desea adquirir.
+                El mecanismo de uso del Sitio le permite al Usuario añadir o quitar ítems del pedido, anularlo por completo y revisarlo. Sin perjuicio del lenguaje que se
+                emplee en el sistema informático, el Usuario acepta y reconoce que el Sitio le permite formular una Orden de Compra, la que se encuentra sujeta a la aprobación
+                de Tattoo Supply Store.
+                <br>
+                En este sentido, la compra de cualquier producto publicado a través del Sitio se encuentra sujeta a disponibilidad de stock, de la aprobación de identidad del Usuario,
+                de la imputación correcta de la tarjeta de crédito o valores transferidos, como a la aprobación por parte del Usuario de estos términos y condiciones.
+                <br>
+                El Usuario reconoce y acepta que algunas situaciones pueden dar lugar a que algunos ítems de su pedido sean excluidos del mismo, ya sea debido a limitaciones en
+                las cantidades disponibles para la compra; faltantes de mercadería; falta de autorización a la operación por parte de la entidad emisora o administradora de su
+                tarjeta de crédito; inexactitudes o errores involuntarios en el producto o la información; o problemas identificados por el departamento de prevención de
+                fraude de crédito y de precios. Para seguridad de los Usuarios, eventualmente Tattoo Supply Store podrá requerirles información o realizar
+                verificaciones adicionales antes de aceptar cualquier pedido. Si se cancela todo o parte del pedido o si se necesita información adicional para aceptarlo,
+                Tattoo Supply Store contactará al Usuario.
+                <br>
+                Todos los precios publicados en el Sitio incluyen IVA. Se deja expresa constancia que los precios publicados en el Sitio podrán sufrir modificaciones y el
+                precio estipulado en la factura será el del momento del cierre de la compra por parte del Usuario. Las fotos o ilustraciones publicadas en el Sitio son al solo
+                efecto ilustrativo. El Sitio contiene información cierta, veraz y detallada sobre las características y precios de los productos, pero el Usuario reconoce y
+                acepta que eventualmente podrán ocurrir involuntarios errores en los precios o detalles de los productos por el uso de sistemas informáticos.
+                De presentarse un error, Tattoo Supply Store informará al Usuario y procederá a cancelar la orden de compra. De este modo se advierte al Usuario que,
+                por razones de buena fe, cuando por error se ofreciera vender a través del Sitio un producto por una suma notoriamente más baja comparativamente con el
+                valor de mercado de un producto similar al publicitado, éste se entenderá que reviste la naturaleza de un "error obstativo", “reconocible” en los términos
+                del art. 266 del Código Civil y Comercial de la Nación, quedando facultado Tattoo Supply Store a proceder conforme se establece en este punto.
+                <br>
+                En todos los casos que deban realizarse una modificación o cancelación parcial del pedido, el Usuario tendrá siempre derecho a cancelar la totalidad del mismo.
+                <br>
+                Tattoo Supply Store, en uso de sus facultades, se reserva el derecho de anular definitivamente cualquier operación luego de la constatación de los datos ingresados,
+                en cuyo caso se le comunicará al usuario la decisión. Todas las compras efectuadas estarán sujetas al stock informado, reconociendo y aceptando el Usuario que
+                debido a las demoras propias de las actualizaciones del sistema, es posible que el mismo le permita realizar una compra que luego deba ser anulada por falta de stock.
+                En ese caso le será informado en el e-mail confirmatorio.
             </li>
             <li>
-                <p>
-                    Limitación de responsabilidad
-                </p>
-                <p>
-                    Este sitio web y todos sus contenidos se proporcionan "tal cual" y sin garantías de ningún tipo.
-                    No somos responsables de los daños directos o indirectos, incluyendo daños por pérdida de ingresos, pérdida de negocio o pérdida de datos, que surjan del uso o la imposibilidad de uso de este sitio web.
-                </p>
+                Medios de Pago:
+                <br>
+                Las compras que se realicen por el Sitio podrán ser abonadas únicamente en forma online y a través de los servicios de MercadoPago. La utilización de dichos servicios
+                implica el redireccionamiento a un sitio web de dicho servicio y supone la aceptación de los términos y políticas de su uso. Tattoo Supply Store no valida ni opera
+                con los establecimientos financieros en forma directa, no recolecta ni almacena datos de su tarjeta de crédito, ni define el resultado de la operación,
+                siendo esto responsabilidad del servicio financiero antes mencionado.
             </li>
             <li>
-                <p>
-                    Ley aplicable
-                </p>
-                <p>
-                    Estos términos y condiciones están sujetos a las leyes de [país], y cualquier disputa que surja de estos términos y condiciones se resolverá exclusivamente en los tribunales de [ciudad].
-                </p>
+                Formas de entrega:
+                <br>
+                Las compras que se realicen mediante el Sitio se entregarán mediante envío a domicilio. Los envíos se realizan a todo el país, mediante OCA, TREGGO y Mercado Envíos
+                según su zona o destino. El costo aparecerá detallado durante el proceso de compra. La compra por parte del Usuario implica su aceptación y reconocimiento de que
+                el Usuario contrata los servicios de traslado de los productos adquiridos con una tercera empresa.
+                <br>
+                El costo del servicio de envío depende de las dimensiones del o de los productos que se adquieran y de la dirección de entrega de los mismos. Acerca del precio los
+                Usuario habrán de ser debidamente informados en oportunidad de realizar el proceso de la compra, previamente a su confirmación. Dicho costo será sumado al de
+                los productos y servicios adquiridos detallados en la correspondiente factura. La confirmación del pedido y el pago realizado on line, implicarán la aceptación
+                por parte de los Usuarios del costo del servicio informado y consecuentemente también el monto total de la correspondiente factura que recibirá en el e-mail registrado
+                en el pedido.
+                <br>
+                El plazo de entrega de la compra, depende de la dirección de entrega y de la ubicación del depósito desde donde se envían los productos. En Ciudad de Corrientes
+                y zonas cercanas la entrega se realiza dentro del plazo estimado de cuarenta y ocho (48) horas hábiles y en el interior del país dentro del plazo estimado de
+                siete (7) días hábiles. El tiempo estimado de entrega debe computarse a partir de la recepción del correspondiente e-mail que cada uno de los Usuarios reciba en
+                su casilla de correo informando el envío de su compra.
+                <br>
+                La entrega se hará en el domicilio elegido por el Usuario, a la persona mayor de edad que se encuentre en el mismo en el momento de la entrega.
+                Al recibir el producto, el Usuario y/o la persona que éste haya designado para la recepción del envío, debe controlar en el momento que sea el producto solicitado,
+                la integridad del embalaje, del producto y de los accesorios. Asimismo, en el momento de la entrega del producto adquirido se solicitará a la persona receptora
+                del producto un documento que identifique a la misma (Documento Nacional de Identidad o Cédula de Identidad). El receptor deberá suscribir el recibo con la
+                aclaración del nombre y documento, lo que implica conformidad con el estado y el contenido del producto recibido, por lo que la verificación deberá efectuarse
+                en forma previa a la firma del recibo.
+            </li>
+            <li>
+                Facturación:
+                <br>
+                El Usuario deberá informar sus datos de facturación en forma previa a efectuar una Orden de Compra. A tal fin, deberá mantener actualizada la información
+                " MI CUENTA " >> " DATOS DE FACTURACIÓN". Los comprobantes a emitirse por las compras de productos y servicios que realicen los Usuarios le serán enviados
+                a los Usuarios por vía electrónica a la dirección registrada en su cuenta, dentro de un plazo estimado de quince (15) días hábiles posteriores a la compra,
+                salvo que medien razones inevitables, que imposibiliten su entrega en el plazo predispuesto, ajenas a la responsabilidad de Tattoo Supply Store.
+                En caso de no recibir o encontrar la documentación, el Usuario deberá contactarse con: facturacion@TattooSupplyStore.com.ar.
+            </li>
+            <li>
+                Promociones:
+                <br>
+                La validez de las promociones que eventualmente realice Tattoo Supply Store depende de la fecha de vigencia de las mismas o de la disponibilidad del stock informado.
+                Las promociones no son acumulables entre sí, salvo que se exprese lo contrario en el Sitio.
+            </li>
+            <li>
+                Garantía:
+                <br>
+                El plazo legal de garantía es de 6 meses. Todos los productos que comercializa Tattoo Supply Store cuentan con garantía de su fabricante,
+                que puede ser superior al plazo legal según se indique en su factura. El Usuario encontrará información detallada sobre la garantía en el certificado de garantía
+                y <a href="">en el siguiente link.</a>
+            </li>
+            <li>
+                Arrepentimiento de la compra:
+                <br>
+                En las compras realizadas a través del Sitio, los Usuarios tienen derecho a revocar la compra efectuada por el plazo de 10 días corridos computado a partir de efectuado
+                el pago o recibido el producto, lo que ocurra último. Si el plazo se cumple en día inhábil, se prorroga hasta el primer día hábil siguiente.
+                <br>
+                El Usuario tiene el deber de notificar el arrepentimiento de su compra y, en su caso, proceder a la devolución inmediata del producto dentro del plazo mencionado.
+                Asimismo, el usuario deberá costear los gastos de la devolución del producto.
+                <br>
+                La notificación debe ser formulada a través del Sitio, mediante el uso del botón dispuesto a ese efecto. Dentro de las 24 horas desde la comunicación que haga el
+                consumidor por ese medio, Tattoo Supply Store le informará al Usuario el número de código de identificación de su trámite.
+                <br>
+                El producto devuelto debe estar en perfectas condiciones, contar con todos sus accesorios y empaques originales. Una vez recibido el producto, ser verificarán
+                estas condiciones y sólo si cumple con los requisitos se procederá al reintegro de las sumas abonadas.
+                <br>
+                El reintegro del dinero a causa de la revocación de la compra será realizado inmediatamente en el caso de arrepentirse de la compra antes de recibir el producto
+                o luego de corroborar las condiciones exigidas para el producto devuelto. La devolución se realizará en la misma forma de pago utilizada en la facturación del pedido,
+                pudiendo registrarse demoras en la acreditación de los fondos originadas por las empresas financieras y no imputables a Tattoo Supply Store.
+                <br>
+                <strong>
+                    El Usuario reconoce y acepta que el uso del botón de arrepentimiento no lo habilita para cambio de productos sino únicamente a la revocación de la compra efectuada.
+                </strong>
+            </li>
+            <li>
+                Operatividad y seguridad del Sitio. Indemnidad:
+                <br>
+                El Sitio solo puede ser utilizado con fines lícitos. El Usuario se obliga a mantener indemne a Tattoo Supply Store por cualquier tipo de reclamo extrajudicial,
+                administrativo o judicial, de terceros, por el uso del Sitio por parte del Usuario.
+                <br>
+                Está prohibido a los Usuarios violar, vulnerar y/o de cualquier forma afectar el normal uso y la seguridad del Sitio, incluyendo, pero sin limitarse a:
+                <br>
+                <ul>
+                    <li>
+                        Acceder a datos que no se destinan a ese usuario o a una cuenta a los cuales no esté el Usuario autorizado para acceder.
+                    </li>
+                    <li>
+                        Tratar de sondear, analizar, probar la vulnerabilidad de un sistema, red o romper medidas de seguridad o autenticación sin la debida autorización.
+                    </li>
+                    <li>
+                        Intentar interferir con el servicio a cualquier Usuario, computadora o red, incluyendo sin que la siguiente enumeración implique limitación,
+                        cuando se lo haga a través de medios de envío de un virus al Sitio, sobrecarga, inundación ("flooding") envío masivo de mensajes no solicitados
+                        ("spamming") envío de códigos destructivos ("mailbombing") o anulación de instrucciones del software ("crashing”). Las violaciones de la
+                        seguridad del sistema o de la red pueden dar lugar a responsabilidad civil o penal. Tattoo Supply Store investigará sucesos que puedan implicar
+                        esas violaciones y puede involucrar a cooperar con las autoridades encargadas de hacer cumplir la ley para enjuiciar a los Usuarios que
+                        participen en esas violaciones. El Usuario acepta no utilizar ningún dispositivo, software o rutina para interferir o intentar interferir con
+                        el buen funcionamiento de este Sitio o cualquier actividad que se lleve a cabo en el mismo. El Usuario acepta, además, no utilizar ni intentar
+                        utilizar cualquier motor, software, herramienta, agente u otro dispositivo o mecanismo (incluyendo sin limitación los navegadores, arañas
+                        (spyders), robots y avatares) para navegar o buscar en este Sitio, que no sean los motores de búsqueda y agentes de búsqueda que
+                        Tattoo Supply Store hace disponibles en este Sitio y diferentes de los navegadores web de terceros disponibles para el público en general
+                        (por ejemplo, Mozilla Firefox, Internet Explorer, Opera, Google Chrome, entre otros).
+                    </li>
+                </ul>
+                <br>
+                El Usuario y/o el navegante ocasional del Sitio aceptan y reconocen expresamente que cualquier hecho, acto u omisión vinculadas con lo referido anteriormente
+                y que tengan entidad para afectar la seguridad y/o el normal desarrollo del Sitio tienen entidad suficiente para causar a Tattoo Supply Store considerables daños y perjuicios
+                incluyendo, pero no limitándose a lucro cesante por caída y/o merma en las ventas, afectación de sus marcas, imagen comercial, pérdida de clientela, etc.
+            </li>
+            <li>
+                Propiedad Intelectual, derechos de autor y marcas registradas:
+                <br>
+                A menos que se indique lo contrario, los derechos de autor, marcas comerciales, presentación comercial (trade dress) y/u otros derechos de propiedad intelectual
+                sobre todo y cualquier contenido del Sitio, incluyendo textos, productos, procesos, tecnología, contenidos y otros materiales son de propiedad,
+                o controlados o licenciados, de Tattoo Supply Store y están protegidos por las leyes Argentinas y tratados internacionales sobre propiedad intelectual.
+                <br>
+                El acceso a este Sitio no confiere a nadie ninguna licencia respecto de cualquier derecho de propiedad intelectual de Tattoo Supply Store o de cualquier tercero,
+                salvo que conste con una autorización expresa de parte de Tattoo Supply Store.
+                <br>
+                Los nombres y logotipos de Tattoo Supply Store y todos los productos relacionados y nombres de servicio, marcas de diseño y eslóganes son las marcas comerciales
+                o marcas de servicio de Tattoo Supply Store. Todas las demás marcas son propiedad de sus respectivos registrantes. No se concede ninguna licencia de marca registrada o marca de servicio en relación con los materiales contenidos en este Sitio. El acceso a este Sitio no autoriza a nadie a utilizar cualquier nombre, logotipo o marca de cualquier manera.
+            </li>
+            <li>
+                Otros sitios web:
+                <br>
+                El Sitio contiene enlaces a otros sitios de Internet. Esos enlaces se proveen como un servicio al Usuario y no están patrocinados o vinculados de ninguna manera al
+                Sitio o a los productos y servicios de Tattoo Supply Store.
+                <br>
+                El Usuario reconoce y acepta que Tattoo Supply Store no será responsable de los contenidos incluidos en otros sitios de Internet que puedan estar conectados
+                mediante enlaces con el Sitio, no contando Tattoo Supply Store con la propiedad ni control sobre tales sitios de Internet, por lo cual Tattoo Supply Store no
+                será responsable ni está obligada, directa o indirectamente, por ningún daño o perjuicio derivado del uso de sitios de terceros, no respaldando ni siendo responsable
+                por el contenido, políticas de privacidad o prácticas de los mismos. El Usuario realiza el acceso y empleo de cualquier página de otros sitios de Internet
+                bajo su propio riesgo y responsabilidad. Tattoo Supply Store recomienda interiorizarse sobre los términos y condiciones de uso y las políticas de privacidad
+                de los sitios de Internet cuyos enlaces se indiquen en el Sitio.
+            </li>
+            <li>
+                Fallas en el sistema:
+                <br>
+                Tattoo Supply Store no garantiza la inexistencia de eventuales dificultades técnicas o fallas en los sistemas o en Internet, ni el acceso y uso continuado del Sitio.
+                El sistema puede no estar disponible debido a dificultades técnicas o fallas de Internet o por cualquier otra circunstancia ajena a Tattoo Supply Store.
+                En tales casos Tattoo Supply Store procurará restablecerlo con la mayor celeridad posible.
+            </li>
+            <li>
+                Ámbito de aplicación:
+                <br>
+                Estas condiciones de uso son aplicables a cualquiera de todas las ventas de productos y/o servicios a ser realizadas por Tattoo Supply Store dentro de la
+                República Argentina.
+            </li>
+            <li>
+                Acuerdo:
+                <br>
+                La aceptación de las presentes condiciones representa un acuerdo entre el Usuario y Tattoo Supply Store. Los títulos utilizados en estos Términos y Condiciones
+                son sólo con fines de referencia y en ninguna manera definen o limitan el alcance de la disposición que titulan. Si cualquier disposición de las mismas
+                se considerara inaplicable por cualquier razón, tal disposición deberá reformarse sólo en la medida necesaria para hacerla exigible y las demás condiciones
+                del presente Acuerdo permanecerán en pleno vigor y efecto.
             </li>
         </ol>
-        <p>
-            Gracias por utilizar nuestra tienda en línea de insumos y materiales de tatuaje. Si tiene alguna pregunta o comentario sobre estos
-        </p>
     </div>
-</section>
 
-<section class="justificado beige">
-    <div class="container mb-4 mt-4">
-        <div class="container mx-n2">
-
-            <h4>
-                Condiciones Generales:
-            </h4>
-            <h5>
-                1. Titularidad del Sitio Web:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                El nombre del dominio www.jurassicplant.com.ar está registrado a favor de CÉSAR AUGUSTO SCHAFFER ALIPPI,
-                con CUIL 20-39864764-6, domiciliado en calle Río Juramento 1233, Corrientes, Argentina.
-                El buzón de correo electrónico general y de atención al público es jurassicplant@gmail.com
-            </p>
-            <h5>
-                2. Términos y Condiciones:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Los contenidos y servicios incluidos y ofrecidos en este sitio web, no están dirigidos a aquellas personas residentes
-                en aquellas jurisdicciones donde no se encuentren autorizados. Únicamente se encuentran comprendidas en el presente sitio web
-                aquellas páginas que figuren dentro del mapa del sitio web. El usuario accede voluntariamente a este sitio web.
-                El acceso y navegación en este sitio web implica aceptar y conocer las advertencias legales, condiciones y
-                términos de uso contenidos en ella. El mero acceso no implica el establecimiento de ningún tipo de relación comercial
-                entre CÉSAR AUGUSTO SCHAFFER ALIPPI y el usuario del portal.
-                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                El Aviso Legal y/o las Condiciones del Servicio de CÉSAR AUGUSTO SCHAFFER ALIPPI establecidas para los servicios prestados
-                a través del presente sitio web, podrán sufrir modificaciones de cualquier tipo, cuando CÉSAR AUGUSTO SCHAFFER ALIPPI
-                lo considere oportuno o con la finalidad de adecuarse a los cambios legislativos y tecnológicos futuros.
-                Estas modificaciones serán notificadas convenientemente, siendo válidas desde su publicación en este sitio web,
-                salvo manifestación en contrario. En consecuencia, el usuario debe leer atentamente el presente Aviso Legal en cada una
-                de las ocasiones en que se proponga utilizar el Portal, ya que aquél puede sufrir modificaciones.
-            </p>
-            <h5>
-                3. Modificación de los Términos y Condiciones:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Jurassic Plant se reserva el derecho de modificar los Términos y Condiciones en cualquier momento, haciéndolos público en el website,
-                y pondrá un aviso alertando a los Usuarios que así lo requieran en la suscripción, informando las modificaciones que
-                pudiera sufrir, durante un tiempo razonable. Sin perjuicio de lo anterior, los Usuarios son responsables de leer estos
-                Términos y Condiciones cada vez que ingresen al website para ver si han sufrido modificaciones.<br>
-                Todo Usuario que no se encuentre de acuerdo con las modificaciones sufridas, tendrá la posibilidad de solicitar la baja del sitio.
-            </p>
-            <h5>
-                4. Capacidad:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Para utilizar los servicios del website se requiere tener capacidad legal para contratar.<br>
-                No podrán acceder a los servicios quienes carezcan de ella, los que hayan sido suspendidos o inhabilitados,
-                ni los menores de edad. Los padres, tutores o responsables de los menores de edad o incapaces que utilicen el website
-                creando un Usuario serán responsables por dicho uso, incluyendo cualquier cargo, facturación o daño que se derive de él.
-            </p>
-            <h5>
-                5. Disponibilidad y precio de los productos ofrecidos:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Antes de comprar, el Usuario deberá tener en cuenta que los productos seleccionados pueden no encontrarse en stock
-                al momento de realizar la compra. Toda compra se encuentra sujeta a disponibilidad y solamente se confirmará la
-                disponibilidad con el número de operación confirmada, en la última etapa del proceso de compra.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Asimismo, en el caso de que el o los productos seleccionados se encontraren agotados o demorados, Jurassic Plant
-                se comunicará con el Usuario y lo invitará a que elija una de las siguientes opciones:<br><br>
-                A) Continuar esperando la entrega del producto elegido (en caso de demora);<br>
-                B) Cancelación de la compra y devolución del importe por el medio de pago original;<br>
-                C) Optar por un producto alternativo que le ofrezca Jurassic Plant para el caso particular;<br>
-                D) Cancelación de la compra y emisión de una orden de compra por el mismo importe.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Cuando el Usuario opte por cancelar la compra, se devolverá el importe abonado según el medio de pago que se haya elegido
-                oportunamente. En el caso de que el Usuario opte por el producto alternativo que le ofrece Jurassic Plant,
-                éste deberá contener características iguales o superiores, pero acordes al precio abonado.
-                En ningún caso se le pedirá al Usuario que abone sumas suplementarias o que se haga cargo de las diferencias,
-                salvo que el producto alternativo ofrecido por Jurassic Plant y escogido por el Usuario sea de características ampliamente
-                superiores y costosas al solicitado originalmente por el Usuario. Importante: para las situaciones contempladas en este apartado,
-                el Usuario tendrá un plazo de diez (10) días para elegir una de las opciones mencionadas.
-                En caso de que el Usuario guarde silencio al respecto, Jurassic Plant podrá presumir que ha optado por la cancelación de la compra,
-                y procederá a la devolución del importe abonado por el medio de pago original.
-                La información sobre productos y precios publicados en el website está sujeta a cambios y pueden ser modificados
-                y/o actualizados directamente por JurassicPlant. Cualquier precio o condición de los productos que ya haya sido confirmado en
-                una operación no serán modificados.
-            </p>
-            <h5>
-                6. Devolución del importe abonado:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                En los casos mencionados en el punto anterior en que el Usuario haya optado por la devolución del importe abonado,
-                deberá tener en cuenta que el reintegro puede demorar como máximo 10 días hábiles, ello debido a plazos y
-                cuestiones administrativas. Para los casos de devolución vía depósito bancario, la cuenta bancaria deberá estar a nombre
-                del titular de la cuenta de Usuario desde donde se haya realizado la operación. En caso de que no coincidan las titularidades,
-                se requerirá la expresa autorización del titular de la cuenta de Usuario como condición indispensable previa al depósito.
-                Se le recomienda al Usuario, en caso de tener inconvenientes con la visibilidad del importe devuelto, comunicarse o realizar
-                la consulta de la devolución con su entidad bancaria.
-            </p>
-            <h5>
-                7. Validez de las promociones:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                En el caso de que se realicen ofertas y promociones de productos, estas tendrán validez para las compras efectuadas desde
-                la fecha de comienzo de las mismas hasta la de finalización de la oferta. Los Términos y Condiciones de las ofertas serán
-                comunicados en el website, y estarán siempre sujetas a la existencia en stock de los productos ofrecidos.
-            </p>
-            <h5>
-                8. Impuesto al valor agregado (IVA):
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Todos los precios expresados en el website incluyen IVA, salvo que se indique lo contrario.
-            </p>
-            <h5>
-                9. Garantía de los productos:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                La garantía de los productos que se adquieren a través del website cubre defectos de fabricación o de calidad sólo cuando
-                han sido utilizados para el fin que han sido fabricados. Jurassic Plant no cubre defectos de producto de un uso indebido o abuso
-                del producto, siendo el cliente, en este caso, el único responsable.
-            </p>
-            <h5>
-                10. Derecho de arrepentimiento. Devolución de los productos:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                La Ley N° 24.240 (Ley de Defensa del Consumidor) establece en su artículo 34 que el consumidor tiene derecho a revocar
-                la aceptación durante el plazo de DIEZ (10) días corridos, contados a partir de la fecha en que se entregue el pedido
-                o se celebre el contrato, lo último que ocurra, sin responsabilidad alguna. Esta facultad no puede ser dispensada ni renunciada.<br>
-                Es decir que, el Usuario tendrá derecho a devolver los productos adquiridos en el website, durante el plazo diez (10) días
-                corridos, contados a partir de la entrega del producto en el domicilio indicado por el Usuario, sin responsabilidad alguna
-                conforme lo establece la Ley de Defensa del Consumidor.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Para ello, deberá notificar de manera fehaciente a Jurassic Plant, dentro del plazo señalado, su decisión de devolver el producto,
-                y poner a disposición de Jurassic Plant el o los productos adquiridos para su respectiva devolución. Los productos deberán estar
-                en el mismo estado en que fueron recibidos por el Usuario, sin haber sido utilizados por éste, y con el embalaje original.
-                Jurassic Plant devolverá al usuario todos los importes abonados en el transcurso de 5 días hábiles desde la recepción del
-                producto en el centro de distribución. Asimismo, si el o los productos hubieren sufrido roturas o deterioros en tránsito,
-                o fueren despachados equivocadamente el Usuario deberá comunicarse con el centro de atención al cliente de Jurassic Plant dentro del
-                plazo antes mencionado, a efectos de que Jurassic Plant proceda, según corresponda, a gestionar el re- despacho de la compra o bien al
-                retiro de la mercadería. En el supuesto de los productos que hayan sufrido roturas o deterioros en tránsito, estos no deben
-                haber sido utilizados por el Usuario, y deben encontrarse en las mismas condiciones en que fueron recibidos, con sus embalajes
-                y etiquetas. Por ejemplo, a mero título ilustrativo, si el producto se encuentra en su envoltorio plástico (“blíster”),
-                este debe ser abierto en forma prolija y cuidadosamente, caso contrario no podrá efectuarse el cambio del mismo.
-                El Usuario podrá cancelar una orden dentro de los diez (10) días corridos de recibido el producto en el domicilio indicado
-                por el Usuario. Para ello deberá ponerse en contacto con Jurassic Plant, enviando un correo electrónico jurassicplant@gmail.com,
-                o a través del área de atención al cliente.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Si la cancelación de la compra es total, el Usuario podrá optar por:<br>
-                <br>(i) solicitar el reintegro del importe mediante el medio de pago que se utilizó el Usuario para abonar su compra, o
-                <br>(ii) solicitar la entrega de una nota de crédito a su favor para futuras compras.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <br>El Usuario reconoce que en el caso del punto (ii) que antecede, Jurassic Plant realizará otro envío, motivo por el cual
-                deberá el Usuario abonar nuevamente los gastos derivados del mismo.
-            </p>
-            <h5>
-                11. Moneda:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Todos los precios en el website están expresados en pesos argentinos, moneda de curso legal de la República Argentina.
-            </p>
-            <h5>
-                12. Medios de pago:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Tarjetas de crédito y débito: seleccionando esta opción el usuario puede efectuar la compra mediante tarjetas de crédito o
-                débito emitidas por cualquier banco habilitado en nuestro sitio.<br>
-                A través de la plataforma de Mercado Pago con tarjetas de crédito o débito.<br>
-                Pago Fácil: después de confirmar el pedido, un volante de pago se mostrará con el valor total de tu pedido.<br>
-                El cliente deberá efectuar el pago en cualquier sucursal del país. El plazo de entrega comienza a correr desde que Pago Fácil
-                informa a Jurassic Plant que el pago ha sido correctamente efectuado. El plazo normal es de hasta 72h hábiles.<br>
-                Jurassic Plant podrá habilitar otras opciones, para facilitar las compras de sus clientes. Todos los medios de pago están
-                sujetos a que el importe sea debidamente acreditado y/o verificado.
-            </p>
-            <h5>
-                13. Envío de productos dentro del país. Tiempo de entrega:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Las entregas se realizarán en la dirección que el Usuario indique. La validez del domicilio es de su exclusiva responsabilidad.
-                No se entregarán órdenes a casillas de correo o apartados postales. El tiempo de entrega depende de la disponibilidad del
-                producto, del tiempo de envío y de la aprobación del medio de pago, como así también de la distancia y del courrier.
-                Los días que se indiquen son estimativos, y corren siempre a partir del momento en que el pedido se despacha del centro de
-                distribución de Jurassic Plant. Los envíos se realizan en toda la República Argentina, excepto la provincia de Tierra del Fuego.
-                Para conocer los tiempos promedio de entrega, visite la sección de envíos. Al realizar una compra, el Usuario recibe en su
-                casilla de correo electrónico una confirmación de que la orden de pedido ha sido aceptada junto a un número de pedido.<br>
-                Para asegurar la máxima eficacia en las entregas, éstas se realizan mediante empresas especializadas.
-                El tiempo de aprobación varía según el medio de pago. En el caso de las tarjetas de crédito, el Usuario deberá verificar que
-                los datos proporcionados para la autorización sean correctos.
-            </p>
-            <h5>
-                14. Gastos de envío:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                El Usuario será claramente informado de los costos de entrega antes de realizar la compra y el precio que abonará por este
-                servicio se encuentra incluido en el precio total de la compra. Estos costos son calculados en función del peso total y/o el
-                volumen total del envío, y también dependen de la zona del domicilio de entrega.<br>
-                Los costos de envío serán discriminados como ítem separado dentro de la factura. Jurassic Plant está siempre trabajando
-                para mejorar la calidad y el costo de entrega para sus clientes.
-            </p>
-            <h5>
-                15. Dirección de la entrega:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                La dirección en donde se entregará el producto será la que el Usuario indique. Podrá no coincidir con el domicilio consignado
-                en el formulario de registración. Para el caso en que el Usuario seleccione la opción de enviar el Pedido a otro domicilio,
-                deberá especificar a nombre de quién se realizará dicho Pedido y su vínculo o motivo por el cual realiza ese pedido.
-                Es responsabilidad del Usuario completar y revisar cuidadosamente la información relacionada el domicilio en donde se
-                realizará la entrega, para que el envío de la compra se haga de manera efectiva y puntual. No se realizan envíos a casillas
-                de correo. Jurassic Plant no se responsabiliza por la falta y/o error en la consignación de la dirección a los fines del
-                envío de los productos. En caso de necesitar solicitar un cambio de dirección de entrega, este pedido deberá efectuarse en
-                ocasión de realizar el pedido de compra o bien a través del envío de un correo electrónico a Jurassic Plant, o comunicándose
-                con el call center, informando la nueva dirección de entrega y el número de pedido. El Usuario no podrá cambiar la dirección
-                de entrega después de facturado el pedido.
-            </p>
-            <h5>
-                16. Consulta sobre el estado del envío:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Como parte del proceso de compra, Jurassic Plant enviará al cliente un correo electrónico automático indicando el número de
-                guía del envío, una vez despachado el producto. De esta manera, el cliente podrá realizar el seguimiento del estado (“tracking”)
-                del pedido en cualquier momento que lo desee, a través de la página del proveedor de la logística. En caso de extravío u otro
-                percance con el número de seguimiento, el cliente podrá contactarse con atención al cliente y solicitarlo nuevamente, indicando
-                el número de pedido.
-            </p>
-            <h5>
-                17. Facturación:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                El Usuario tendrá a su disposición la factura electrónica con la información clara y precisa de los productos comprados,
-                el método, plan de pago, y la moneda utilizados para la transacción. La factura electrónica será enviada al correo electrónico
-                consignado en el formulario de registración, una vez confirmada la compra. En caso de no recibirla y necesitar dicha
-                documentación podrá contactarse a través de jurassicplant@gmail.com o bien comunicarse con atención al cliente y automáticamente
-                se le enviará la factura solicitada. Las facturas son emitidas por Jurassic Plant.
-            </p>
-            <h5>
-                18. Prohibiciones:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Se les prohíbe terminantemente a los Usuarios:
-            <ul>
-                <li>
-                    Enviar archivos o cualquier tipo de información cuyo contenido sea ilegal, obsceno, abusivo, difamatorio, injurioso o
-                    contrario a las buenas costumbres (la presente enumeración es meramente ejemplificativa).
-                </li>
-                <li>
-                    Enviar archivos que contengan virus o cualquier otra característica capaz de dañar el funcionamiento de una computadora,
-                    del website o del sistema.
-                </li>
-                <li>
-                    Utilizar el website para violar cualquier tipo de norma vigente.
-                </li>
-                <li>
-                    Consignar datos falsos al momento de registrarse o realizar una compra, o cualquier otro momento en que les sea requerida
-                    cualquier tipo de información o datos personales.
-                </li>
-                <li>
-                    Ofrecer productos o servicios.
-                </li>
-                <li>
-                    Usar programas, software o aparatos automáticos o manuales para monitorear o copiar la información o cualquier tipo de
-                    contenido del sitio sin previo consentimiento de Jurassic Plant.
-                </li>
-            </ul>
-            </p>
-            <h5>
-                19. Imágenes
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Las imágenes asociadas a los productos que en la website www.jurassicplant.com.ar aparezcan, son meramente ilustrativas.
-            </p>
-            <h5>
-                20. Derechos reservados. Propiedad intelectual:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Todos los derechos del presente website están reservados y corresponden a Jurassic Plant en virtud de los derechos de
-                uso del dominio www.jurassicplant.com.ar. El contenido del presente website, incluyendo aunque no limitado al texto, logos,
-                gráficos, y todo el diseño en general, así como su base de datos y software, es de propiedad o uso exclusivo de Jurassic Plant
-                o tiene derecho a usarlo en virtud de licencias de uso otorgadas y se encuentra protegido por las legislación nacional e
-                internacional vigente sobre propiedad intelectual.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Si el Usuario considera que en el website se viola o atenta de algún modo contra derechos de propiedad intelectual de terceros
-                deberá notificarlo a Jurassic Plant en la dirección indicada en los presentes Términos y Condiciones, o a
-                jurassicplant@gmail.com acompañando toda la información y documentación necesaria que respalde la mencionada consideración.
-            </p>
-            <h5>
-                21. Razón social y domicilio legal:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                La razón social de la empresa es Jurassic Plant S.R.L., con domicilio legal en Av. Gdor. Ruíz 2349 del departamento capital
-                de Corrientes.
-            </p>
-            <h5>
-                22. Notificaciones:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Todas las notificaciones y/o comunicaciones que deban efectuarse por el uso de website bajo estos Términos y Condiciones,
-                deberán realizarse por escrito:<br><br>
-                (i) al Usuario: mediante correo electrónico, a la cuenta de correo consignada por éste,
-                o por carta documento, al domicilio declarado en el formulario de registración;<br>
-                (ii) a Jurassic Plant: a la cuenta de correo electrónico jurassicplant@gmail.com, o a su domicilio legal indicado en el
-                punto anterior.
-            </p>
-            <h5>
-                23. Avisos publicitarios y links:
-            </h5>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Cuando el Usuario haga click en avisos publicitarios o links de terceros e ingresa en otros sitios que no pertenecen a
-                Jurassic Plant, estará sujeto a los términos y condiciones de dichos sitios. El Usuario deberá leer detenidamente sus políticas
-                de acceso y uso.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Jurassic Plant no garantiza la legalidad, actualidad, calidad ni utilidad de los contenidos, operaciones e informaciones que
-                se comuniquen, reproduzcan y/o realicen en sitios enlazados de terceros ni la ausencia de nocividad de tales contenidos o
-                servicios, por lo que el Usuario exime de toda responsabilidad a Jurassic Plant por los contenidos incluidos en los referidos
-                sitios o los servicios que en ellos se brindan o promocionan.
-            </p>
-        </div>
-    </div>
 </section>
