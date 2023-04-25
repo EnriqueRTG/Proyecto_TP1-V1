@@ -22,5 +22,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #0a4d68 !important;
+  color: #F6F1F1 !important;
 }
+
+/*color: #070e79; color utilizado en el degrade de las etiquetas  */

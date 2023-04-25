@@ -1,118 +1,56 @@
-.accordion-item {
-  border: none;
-}
-
-.accordion-button-color {
-  background-color: #210062 !important;
+.accordion-button {
+  background: rgb(7, 14, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 14, 121, 1) 0%,
+    rgba(0, 0, 0, 1) 60%
+  );
   color: #f6f1f1 !important;
   font-size: large;
-  font-weight: 600;
-  
+  font-weight: bold;
 }
 
-.accordion-button-color:hover {
-  background-color: #77037b !important;
+.accordion-button:hover {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(255, 96, 0, 1) 100%
+  );
+  color: #f6f1f1 !important;
+  font-size: large;
+  font-weight: bold;
 }
 
 .accordion-body {
-  background: rgb(119, 57, 168);
+  background: rgb(72, 1, 117);
   background: linear-gradient(
-    180deg,
-    rgba(119, 57, 168, 1) 0%,
-    rgba(140, 24, 245, 1) 50%,
-    rgba(139, 71, 245, 1) 100%
+    41deg,
+    rgba(72, 1, 117, 1) 10%,
+    rgba(50, 5, 102, 1) 50%,
+    rgba(43, 27, 115, 1) 100%
   );
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.titulo-texto-comer {
-  color: #f6f1f1;
-  font-size: large;
-  font-weight: 800;
-}
-
-.descripcion-texto-comer {
-  color: #f6f1f1;
-  text-align: justify;
-}
-
-.lista-comer{
-  margin-left: 1rem;
-  margin-right: 1rem;
+.lista-comercializacion {
   padding: 0%;
 }
 
-.img-envio{
-  width: 20rem;
-  height: 6rem;
+.elemento-lista-comercializacion {
 }
 
-.img-pago{
-  width: 15rem;
-  height: 9rem;
+.titulo-elemento {
+  font-weight: bold;
+  color: #f6f1f1;
 }
 
-.boton-perzonalizado {
-  position: relative;
-  padding: 10px 15px;
-  border: none;
-  outline: none;
-  background: #350642;
-  color: #dcc2e4;
-  cursor: pointer;
-  transition: 0.5s;
-  overflow: hidden;
+.descripcion-elemento {
+  color: #f6f1f1;
 }
 
-.boton-perzonalizado:hover {
-  color: aqua;
-}
 
-.boton-perzonalizado span {
-  position: absolute;
-  background: aliceblue;
-  transition: 0.5s;
-}
-
-.boton-perzonalizado span:bth-child(1) {
-  width: 100%;
-  height: 1px;
-  top: 0;
-  left: -100%;
-}
-
-.boton-perzonalizado span:bth-child(2) {
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  right: -100%;
-}
-
-.boton-perzonalizado span:bth-child(3) {
-  width: 1px;
-  height: 100%;
-  bottom: -100%;
-  left: 0;
-}
-
-.boton-perzonalizado span:bth-child(4) {
-  width: 1px;
-  height: 100%;
-  top: -100%;
-  right: 0;
-}
-
-.boton-perzonalizado:hover span:bth-child(1) {
-  left: 0;
-}
-
-.boton-perzonalizado span:bth-child(2) {
-  right: 0;
-}
-
-.boton-perzonalizado span:bth-child(3) {
-  bottom: 0;
-}
-
-.boton-perzonalizado span:bth-child(4) {
-  top: 0;
+.imagen-pagos{
+  background-color: #f6f1f1;
 }

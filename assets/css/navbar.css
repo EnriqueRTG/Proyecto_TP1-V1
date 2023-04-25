@@ -1,4 +1,12 @@
 #navbar-cliente {
   background-color: #ff6000;
-  
+}
+
+.nav-item:hover {
+  background: rgb(7, 14, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 14, 121, 1) 0%,
+    rgba(0, 0, 0, 1) 60%
+  );
 }
