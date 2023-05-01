@@ -10,3 +10,13 @@
     rgba(0, 0, 0, 1) 60%
   );
 }
+
+ul.dropdown-menu {
+  background-color: #ff6000;
+  color: #F6F1F1 !important;
+}
+
+ul.dropdown-menu:hover {
+  background-color: #ff6000;
+  color: #F6F1F1 !important;
+}

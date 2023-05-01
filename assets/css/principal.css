@@ -19,15 +19,3 @@
   text-align: center;
   font-weight: 900;
 }
-
-
-.btn-primary {
-  background-color: #263a29;
-  font-size: x-large;
-  font-weight: 600;
-}
-
-.btn-primary:hover {
-  background-color: #ff6000;
-  color: black;
-}

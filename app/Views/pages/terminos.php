@@ -253,7 +253,7 @@
                 <p class="descripcion-elemento-terminos">
                     El plazo legal de garantía es de 6 meses. Todos los productos que comercializa Tattoo Supply Store cuentan con garantía de su fabricante,
                     que puede ser superior al plazo legal según se indique en su factura. El Usuario encontrará información detallada sobre la garantía en el 
-                    y <a href="<?php echo base_url('garantia'); ?>">certificado de garantía en el siguiente link.</a>
+                    y <a href="<?php echo base_url('terminos/garantia'); ?>">certificado de garantía en el siguiente link.</a>
                 </p>
             </li>
             <li>

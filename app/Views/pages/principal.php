@@ -34,11 +34,11 @@
                 En <span class="fw-bold">Tattoo Supply Store</span> estamos dispuestos a asesorarte y ofrecerte la mejor atención.
                 Trabajamos ofreciendo los mejores productos, nacionales como importados, tales como: Cheyenne, Dynamic Ink, EZ, etc.
             </p>
-            <!-- implementacion segunda parte
-            <div id="ctr-presentacion-card-boton">
-                <a class="btn btn-primary btn-lg" href="#!">Ver Catalogo</a>
+            <!-- implementacion segunda parte-->
+            <div id="ctr-presentacion-card-boton" class=" text-center">
+                <a class="btn btn-primary btn-lg text-uppercase" href="<?php echo base_url('catalogo'); ?>">Ver Catalogo</a>
             </div>
-            -->
+            
         </div>
     </div>
 </section>

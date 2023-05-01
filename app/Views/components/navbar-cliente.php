@@ -17,43 +17,47 @@
             <ul class="navbar-nav m-auto my-3 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 120px;" id="lista-nav-items">
                 <li class="nav-item mx-1">
                     <a class="nav-link text-uppercase" aria-current="page" href="<?php echo base_url(); ?>">Principal</a>
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" href="<?php echo base_url('catalogo'); ?>">Catalogo</a>
+                </li>
                 </li>
                 <li class="nav-item mx-1">
                     <a class="nav-link text-uppercase" href="<?php echo base_url('sobre'); ?>">Quienes Somos</a>
                 </li>
-                <li class="nav-item mx-1">
-                    <a class="nav-link text-uppercase" href="<?php echo base_url('comercializacion'); ?>">Comercializacion</a>
-                </li>
-                <li class="nav-item mx-1">
-                    <a class="nav-link text-uppercase" href="<?php echo base_url('contacto'); ?>">Contacto</a>
-                </li>
-                <li class="nav-item mx-1">
-                    <a class="nav-link text-uppercase" href="<?php echo base_url('terminos'); ?>">Terminos y Usos</a>
-                </li>
+
                 <!-- ver su integracion para la segunda etapa-->
-                <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-lin dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Link
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item" href="#">Acción</a></li>
-                            <li><a class="dropdown-item" href="#">Otra acción</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Algo más aquí</a></li>
-                        </ul>
-                    </li>
-                -->
+
+                <li class="nav-item dropdown mx-1">
+                    <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mas Info
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-uppercase" href="<?php echo base_url('comercializacion'); ?>">Comercializacion</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-uppercase" href="<?php echo base_url('contacto'); ?>">Contacto</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-uppercase" href="<?php echo base_url('terminos'); ?>">Terminos y Usos</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <bot id="ctr-presentacion-card-boton" class=" text-center">
+                    <a class="btn btn-lg text-uppercase" href="<?php echo base_url('ingreso'); ?>">Ingresar</a>
+                </div>
+
             </ul>
             <!-- ver su integracion para la segunda etapa-->
-            <!--
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            -->
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+
+
+
         </div>
     </div>
 </nav>

@@ -34,7 +34,22 @@ $routes->get('/sobre', 'Sobre::index');
 $routes->get('/comercializacion', 'Comercializacion::index');
 $routes->get('/contacto', 'Contacto::index');
 $routes->get('/terminos', 'Terminos::index');
-$routes->get('/garantia', 'Garantia::index');
+$routes->get('/terminos/garantia', 'Garantia::index');
+
+//Catalogo y Productos
+$routes->get('/catalogo', 'Catalogo::index');
+$routes->get('/catalogo/producto', 'Producto::index');
+
+//Ingreso-Registro-Recuperacion
+$routes->get('/ingreso', 'Login::ingreso');
+$routes->get('/registro', 'Login::registro');
+$routes->get('/recuperacion', 'Login::recuperacion');
+
+
+//Admin
+$routes->get('/dashboard', 'Dashboard::index');
+$routes->get('/dashboard/graficos', 'Dashboard::graficos');
+$routes->get('/dashboard/tablas', 'Dashboard::tablas');
 
 
 /*
