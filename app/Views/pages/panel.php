@@ -4,7 +4,7 @@
             <div class="sb-sidenav-menu">
                 <div class="nav">
                     <div class="sb-sidenav-menu-heading">Core</div>
-                    <a class="nav-link" href="<?php echo base_url('dashboard'); ?>">
+                    <a class="nav-link" href="<?php echo base_url('panel'); ?>">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Dashboard
                     </a>
@@ -52,11 +52,11 @@
                         </nav>
                     </div>
                     <div class="sb-sidenav-menu-heading">Addons</div>
-                    <a class="nav-link" href="<?php echo base_url('dashboard/graficos'); ?>">
+                    <a class="nav-link" href="<?php echo base_url('panel/graficos'); ?>">
                         <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                         Charts
                     </a>
-                    <a class="nav-link" href="<?php echo base_url('dashboard/tablas'); ?>">
+                    <a class="nav-link" href="<?php echo base_url('panel/tablas'); ?>">
                         <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                         Tables
                     </a>

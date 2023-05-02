@@ -19,7 +19,7 @@ $routes->set404Override();
 // where controller filters or CSRF protection are bypassed.
 // If you don't want to define all routes, please use the Auto Routing (Improved).
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
- $routes->setAutoRoute(true);
+$routes->setAutoRoute(true);
 
 /*
  * --------------------------------------------------------------------
@@ -47,9 +47,9 @@ $routes->get('/recuperacion', 'Login::recuperacion');
 
 
 //Admin
-$routes->get('/dashboard', 'Dashboard::index');
-$routes->get('/dashboard/graficos', 'Dashboard::graficos');
-$routes->get('/dashboard/tablas', 'Dashboard::tablas');
+$routes->get('/panel', 'Panel::index', ['filter' => 'autentificacion']);
+$routes->get('/panel/graficos', 'Panel::graficos');
+$routes->get('/panel/tablas', 'Panel::tablas');
 
 
 /*

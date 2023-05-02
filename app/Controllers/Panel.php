@@ -2,15 +2,15 @@
 
 namespace App\Controllers;
 
-class Dashboard extends BaseController
+class Panel extends BaseController
 {
     public function index()
     {
         $data = [
-            'title' =>  'Dashboard - Tattoo Supply Store',
+            'title' =>  'Panel - Tattoo Supply Store',
         ];
 
-        return  view('/components/header-admin', $data) . view('/components/navbar-admin') . view('/pages/dashboard') . view('/components/footer-admin');
+        return  view('/components/header-admin', $data) . view('/components/navbar-admin') . view('/pages/panel') . view('/components/footer-admin');
     }
 
     public function graficos()
