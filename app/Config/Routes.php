@@ -40,6 +40,10 @@ $routes->get('/terminos/garantia', 'Garantia::index');
 $routes->get('/catalogo', 'Catalogo::index');
 $routes->get('/catalogo/producto', 'Producto::index');
 
+
+// listar Usuarios
+$routes->get('/usuarios', 'UsuarioController::obtenerUsuarios');
+
 //Ingreso-Registro-Recuperacion
 $routes->get('/ingreso', 'Login::ingreso');
 $routes->get('/registro', 'Login::registro');

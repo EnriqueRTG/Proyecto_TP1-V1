@@ -29,21 +29,21 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'torresgamarra_enriqueramon',
+        'database' => 'bd_torresgamarra_enriqueramon',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'production'), //true original
         'cacheOn'  => false, // no estaba
         'cacheDir' => '', // no estaba
-        'charset'  => 'utf8',
-        'DBCollat' => 'utf8_general_ci',
+        'charset'  => 'utf8mb4',
+        'DBCollat' => 'utf8mb4_general_ci',
         'swapPre'  => '',
         'encrypt'  => false,
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3307, // 3306 original
+        'port'     => 3306, // 3306 original
     ];
 
     /**
