@@ -4,23 +4,23 @@
   <div class="container">
 
     <section id="contenedor-lista-enlaces" class="row py-3">
-      
+
       <ul class="nav col justify-content-center">
         <li class="nav-item">
-          <a href="#" class="nav-link px-3 text-uppercase">Preguntas Frecuentes</a>
+          <a href="<?= site_url('garantia') ?>" class="nav-link px-3 text-uppercase">Garantia</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-3 text-uppercase">Formas de Pago</a>
+          <a href="<?= site_url('comercializacion/metodos') ?>" class="nav-link px-3 text-uppercase">Formas de Pago</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-3 text-uppercase">Ubicacion</a>
+          <a href="<?= site_url('contacto/ubicacion') ?>" class="nav-link px-3 text-uppercase">Ubicacion</a>
         </li>
       </ul>
 
     </section>
 
     <section id="contenedor-logo-footer" class="row py-1 text-center">
-      <a href="<?php echo base_url(); ?>" class="col ">
+      <a href="<?= base_url() ?>" class="col ">
         <img id="imagen-logotipo" src="<?php echo base_url(); ?>assets/img/logo/logo.png" class="img-fluid">
       </a>
     </section>

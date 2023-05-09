@@ -29,10 +29,15 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->get('/sobre', 'Sobre::index');
+$routes->get('/', 'Principal::index');
+$routes->get('/nosotros', 'Nosotros::index');
+
 $routes->get('/comercializacion', 'Comercializacion::index');
+$routes->get('/comercializacion/metodos-pago', 'Comercializacion::metodos');
+
 $routes->get('/contacto', 'Contacto::index');
+$routes->get('/contacto/ubicacion', 'Contacto::ubicacion');
+
 $routes->get('/terminos', 'Terminos::index');
 $routes->get('/terminos/garantia', 'Garantia::index');
 
@@ -45,9 +50,9 @@ $routes->get('/catalogo/producto', 'Producto::index');
 $routes->get('/usuarios', 'UsuarioController::obtenerUsuarios');
 
 //Ingreso-Registro-Recuperacion
-$routes->get('/ingreso', 'Login::ingreso');
-$routes->get('/registro', 'Login::registro');
-$routes->get('/recuperacion', 'Login::recuperacion');
+$routes->get('/', 'LoginController::procesar');
+$routes->get('/registro', 'LoginContriller::registro');
+$routes->get('/recuperacion', 'LoginController::recuperacion');
 
 
 //Admin
@@ -55,6 +60,7 @@ $routes->get('/panel', 'Panel::index', ['filter' => 'autentificacion']);
 $routes->get('/panel/graficos', 'Panel::graficos');
 $routes->get('/panel/tablas', 'Panel::tablas');
 
+// Redireccionamiento
 
 /*
  * --------------------------------------------------------------------

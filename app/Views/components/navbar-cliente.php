@@ -22,7 +22,7 @@
                 </li>
                 </li>
                 <li class="nav-item mx-1">
-                    <a class="nav-link text-uppercase" href="<?php echo base_url('sobre'); ?>">Quienes Somos</a>
+                    <a class="nav-link text-uppercase" href="<?php echo base_url('nosotros'); ?>">Nosotros</a>
                 </li>
 
                 <!-- ver su integracion para la segunda etapa-->
@@ -44,9 +44,80 @@
                     </ul>
                 </li>
 
-                <bot id="ctr-presentacion-card-boton" class=" text-center">
-                    <a class="btn btn-lg text-uppercase" href="<?php echo base_url('ingreso'); ?>">Ingresar</a>
-                </div>
+                <!-- Verificar si el usuario ha iniciado sesión -->
+                <?php if (session()->get('isLoggedIn')) : ?>
+                    <button class=" btn btn-lg">
+                        <a href="">
+                            <i class="bi bi-cart"></i>
+                        </a>
+                        <!-- incorporar codigo php para devolver el calculo de la cantidad de articulos en el carrito -->
+                        <span class="badge text-bg-secondary">
+
+                        </span>
+
+                        <!-- Example split danger button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person"></i>
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Pedidos</a></li>
+                                <li><a class="dropdown-item" href="#">Consultas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Salir</a></li>
+                            </ul>
+                        </div>
+
+
+                    </button>
+                <?php else : ?>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Ingresar
+                        <i class="bi bi-person"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content card bg-transparent">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Inicio de Sesion</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <form action="<?php echo base_url('logincontroller/procesar') ?>" method="POST">
+                                        <div class="form-outline form-white mb-4">
+                                            <input type="text" id="typeEmailX" class="form-control form-control-lg" />
+                                            <label class="form-label" for="user">Usuario</label>
+                                        </div>
+
+                                        <div class="form-outline form-white mb-4">
+                                            <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                                            <label class="form-label" for="password">Contraseña</label>
+                                        </div>
+
+                                        <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="<?php echo base_url('/recuperacion'); ?>">Olvido su contraseña?</a></p>
+
+                                        <div class=" text-center">
+                                            <button class="btn btn-outline-light btn-lg px-5" type="submit">Ingresar</button>
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <?php endif; ?>
 
             </ul>
             <!-- ver su integracion para la segunda etapa-->

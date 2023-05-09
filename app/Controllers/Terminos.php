@@ -10,6 +10,6 @@ class Terminos extends BaseController
             'title' =>  'Terminos y Condiciones - Tattoo Supply Store',
         ];
 
-        return view('/components/header', $data) . view('/components/navbar-cliente', $data) . view('/pages/terminos', $data) . view('/components/footer-cliente');
+        return view('/components/header', $data) . view('/components/navbar-cliente', $data) . view('/pages/terminos-vista', $data) . view('/components/footer-cliente');
     }
 }
