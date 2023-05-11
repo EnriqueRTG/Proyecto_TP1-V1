@@ -10,6 +10,6 @@ class Principal extends BaseController
             'title' =>  'Principal - Tattoo Supply Store',
         ];
 
-        return view('/components/header', $data) . view('/components/navbar-cliente', $data) . view('/pages/principal-vista', $data) . view('/components/footer-cliente');
+        return view('/components/header', $data) . view('/components/navbar', $data) . view('/pages/principal-vista', $data) . view('/components/footer');
     }
 }

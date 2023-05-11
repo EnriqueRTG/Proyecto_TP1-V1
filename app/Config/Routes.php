@@ -29,30 +29,40 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
+//principal
 $routes->get('/', 'Principal::index');
-$routes->get('/nosotros', 'Nosotros::index');
 
-$routes->get('/comercializacion', 'Comercializacion::index');
-$routes->get('/comercializacion/metodos-pago', 'Comercializacion::metodos');
+//quienes somos 
+$routes->get('nosotros', 'Nosotros::index');
 
-$routes->get('/contacto', 'Contacto::index');
-$routes->get('/contacto/ubicacion', 'Contacto::ubicacion');
+//comercializacion
+$routes->get('comercializacion', 'Comercializacion::index');
 
-$routes->get('/terminos', 'Terminos::index');
-$routes->get('/terminos/garantia', 'Garantia::index');
+//contacto
+$routes->get('contacto', 'Contacto::index');
+
+//terminos y usos
+$routes->get('terminos', 'Terminos::index');
+
+//garantia
+$routes->get('terminos/garantia', 'Garantia::index');
+
+
+//Ingreso-Registro-Recuperacion
+$routes->get('/', 'SesionController::index');
+$routes->get('/registrar', 'SesionController::registrar');
+$routes->get('/recuperacion', 'SesionController::recuperacion');
 
 //Catalogo y Productos
 $routes->get('/catalogo', 'Catalogo::index');
-$routes->get('/catalogo/producto', 'Producto::index');
+$routes->get('/catalogo/producto', 'ProductoController::index');
 
 
 // listar Usuarios
 $routes->get('/usuarios', 'UsuarioController::obtenerUsuarios');
 
-//Ingreso-Registro-Recuperacion
-$routes->get('/', 'LoginController::procesar');
-$routes->get('/registro', 'LoginContriller::registro');
-$routes->get('/recuperacion', 'LoginController::recuperacion');
+
 
 
 //Admin

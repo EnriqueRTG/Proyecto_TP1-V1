@@ -10,6 +10,6 @@ class Garantia extends BaseController
             'title' =>  'Garantia - Tattoo Supply Store',
         ];
 
-        return view('/components/header', $data) . view('/components/navbar-cliente', $data) . view('/pages/garantia-vista', $data) . view('/components/footer-cliente');
+        return view('/components/header', $data) . view('/components/navbar', $data) . view('/pages/garantia-vista', $data) . view('/components/footer');
     }
 }

@@ -10,6 +10,6 @@ class Nosotros extends BaseController
             'title' =>  'Sobre Nosotros - Tattoo Supply Store',
         ];
 
-        return view('/components/header', $data) . view('/components/navbar-cliente', $data) . view('/pages/nosotros-vista', $data) . view('/components/footer-cliente');
+        return view('/components/header', $data) . view('/components/navbar', $data) . view('/pages/nosotros-vista', $data) . view('/components/footer');
     }
 }

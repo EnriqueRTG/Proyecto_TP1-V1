@@ -10,6 +10,6 @@ class Catalogo extends BaseController
             'title' =>  'Catalogo - Tattoo Supply Store',
         ];
 
-        return view('/components/header', $data) . view('/components/navbar-cliente', $data) . view('/pages/catalogo') . view('/components/footer-cliente');
+        return view('/components/header', $data) . view('/components/navbar', $data) . view('/pages/catalogo') . view('/components/footer');
     }
 }

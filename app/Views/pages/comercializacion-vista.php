@@ -67,7 +67,7 @@
                                     <a class="" href="https://www.andreani.com/#!/pymes/encomienda" target="_blank" rel="noopener noreferrer">
                                         <img class=" img-fluid" src="<?php echo base_url() ?>/assets/img/envio/andreani.png" alt="Andreani">
                                     </a>
-                                </li> 
+                                </li>
                                 <li class="col col-lg-4 col-md-6 col-12 py-2">
                                     <a class="" href="https://www.correoargentino.com.ar/servicios/paqueteria" target="_blank" rel="noopener noreferrer">
                                         <img class=" img-fluid" src="<?php echo base_url() ?>/assets/img/envio/correo-argentino.png" alt="Correo Argentino">
@@ -141,7 +141,7 @@
                 </div>
             </div>
         </div>
-        <div class="accordion-item" id="metodos">
+        <div class="accordion-item" id="metodos-de-pago">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                 <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                     Información Métodos de Pago

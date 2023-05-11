@@ -10,11 +10,11 @@ class Comercializacion extends BaseController
             'title' =>  'Comercializacion - Tattoo Supply Store',
         ];
 
-        return view('/components/header', $data) . view('/components/navbar-cliente', $data) . view('/pages/comercializacion-vista') . view('/components/footer-cliente');
+        return view('/components/header', $data) . view('/components/navbar', $data) . view('/pages/comercializacion-vista') . view('/components/footer');
     }
 
     public function metodos()
     {
-        return redirect()->to(base_url('comercializacion#metodos'));
+        return redirect()->to(site_url('comercializacion#metodos-de-pago'));
     }
 }
