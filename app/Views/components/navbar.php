@@ -29,7 +29,7 @@
 
                 <li class="nav-item dropdown mx-1">
                     <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mas Info
+                        Otros
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                         <li class="nav-item mx-1">
@@ -76,9 +76,8 @@
                 <?php else : ?>
 
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <button class="btn btn-lg text-uppercase" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         Ingresar
-                        <i class="bi bi-person"></i>
                     </button>
 
                     <!-- Modal -->
@@ -102,9 +101,9 @@
                                             <label class="form-label" for="password">Contraseña</label>
                                         </div>
 
-                                        <p class="small mb-3 pb-lg-2"><a class="text-white-50" data-bs-target="#recuperacion" data-bs-toggle="modal" data-bs-dismiss="modal" href="#">Olvido su contraseña?</a></p>
+                                        <p class="small mb-3 pb-lg-2"><a class="text-white" data-bs-target="#recuperacion" data-bs-toggle="modal" data-bs-dismiss="modal" href="#">Olvido su contraseña?</a></p>
 
-                                        <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="<?php echo base_url('/registrar'); ?>">Tiene una cuenta?</a></p>
+                                        <p class="small mb-5 pb-lg-2"><a class="text-white" href="<?php echo base_url('/registrar'); ?>">Tiene una cuenta?</a></p>
 
                                         <div class=" text-center">
                                             <button class="btn btn-outline-light btn-lg px-5" type="submit">Ingresar</button>
@@ -126,23 +125,17 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                        <div class="card-body">
-
-                                            <form>
-                                                <div class="form-floating mb-3">
-                                                    <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
-                                                    <label for="inputEmail">Direccion de correo</label>
-                                                </div>
-                                                <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                    <a class="small" href="<?php echo base_url('/ingresar'); ?>">Regresar a Inicio de Sesion</a>
-                                                    <a class="btn btn-primary" href="login.html">Cambiar Contrasenia</a>
-                                                </div>
-                                            </form>
+                                    <form class=" text-center">
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
+                                            <label for="inputEmail">Direccion de correo</label>
                                         </div>
-                                        <div class="card-footer text-center py-3">
-                                            <div class="small"><a href="<?php echo base_url('/registrar'); ?>">Necesita una cuenta? Regitrarse!</a></div>
+                                        <div class=" mt-4 mb-4">
+                                            <a class="btn btn-primary" href="login.html">Recuperar</a>
                                         </div>
+                                    </form>
+                                    <div class="card-footer text-center py-3">
+                                        <div class="small "><a class="text-white" href="<?php echo base_url('/registrar'); ?>">Necesita una cuenta? Regitrarse!</a></div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">

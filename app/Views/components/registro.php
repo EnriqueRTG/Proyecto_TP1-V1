@@ -56,7 +56,7 @@
                             <div class="form-check mb-5">
                                 <input class="form-check-input ms-5" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="form-check-label me-5" for="flexCheckDefault">
-                                    Acepto <a href="<?php echo site_url('terminos'); ?>">Terminos y Condiciones</a>
+                                    Acepto <a class="text-white" href="<?php echo site_url('terminos'); ?>">Terminos y Condiciones</a>
                                 </label>
                             </div>
 
