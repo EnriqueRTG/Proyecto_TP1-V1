@@ -7,13 +7,13 @@
 
       <ul class="nav col justify-content-center">
         <li class="nav-item">
-          <a href="<?= site_url('garantia') ?>" class="nav-link px-3 text-uppercase">Garantia</a>
+          <a href="<?= base_url('/garantia') ?>" class="nav-link px-3 text-uppercase">Garantia</a>
         </li>
         <li class="nav-item">
-          <a href="<?= site_url('comercializacion/metodos') ?>" class="nav-link px-3 text-uppercase">Metodos de Pago</a>
+          <a href="<?= base_url('/comercializacion/metodos') ?>" class="nav-link px-3 text-uppercase">Metodos de Pago</a>
         </li>
         <li class="nav-item">
-          <a href="<?= site_url('contacto/ubicacion') ?>" class="nav-link px-3 text-uppercase">Ubicacion</a>
+          <a href="<?= base_url('/contacto/ubicacion') ?>" class="nav-link px-3 text-uppercase">Ubicacion</a>
         </li>
       </ul>
 

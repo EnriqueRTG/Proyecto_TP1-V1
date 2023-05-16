@@ -2,14 +2,19 @@
 
 namespace App\Controllers;
 
+use CodeIgniter\Exceptions\PageNotFoundException;
+
 class Garantia extends BaseController
 {
-    public function index()
+    public function index($page = 'garantia')
     {
-        $data = [
-            'title' =>  'Garantia - Tattoo Supply Store',
-        ];
+        if (!is_file(APPPATH . 'Views/pages/' . $page . '.php')) {
+            // No se encontro la pagina.
+            throw new PageNotFoundException($page);
+        }
 
-        return view('/components/header', $data) . view('/components/navbar', $data) . view('/pages/garantia-vista', $data) . view('/components/footer');
+        $data['title'] = ucfirst($page); //Capitaliza la primera letra
+
+        return view('/components/header', $data) . view('/components/navbar') . view('pages/' . $page) . view('/components/footer');
     }
 }

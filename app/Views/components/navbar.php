@@ -58,9 +58,9 @@
                         <!-- Example split danger button -->
                         <div class="btn-group">
                             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="bi bi-person"></i>
+                                <i class="bi bi-person"></i> <!--// si es admin <i class="bi bi-person-gear h2"> <i class="bi bi-wrench-adjustable-circle-fill"></i>-->
                             </button>
-
+                            <!--// boton para volver al panel <i class="bi bi-wrench-adjustable-circle-fill"></i>-->
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Pedidos</a></li>
                                 <li><a class="dropdown-item" href="#">Consultas</a></li>
@@ -70,7 +70,6 @@
                                 <li><a class="dropdown-item" href="#">Salir</a></li>
                             </ul>
                         </div>
-
 
                     </button>
                 <?php else : ?>
@@ -89,21 +88,23 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-
-                                    <form action="<?php echo base_url('logincontroller/procesar') ?>" method="POST">
+                                    <?php if (session()->get('error')) : ?>
+                                        <div class="alert alert-danger"><?= session()->get('error') ?></div>
+                                    <?php endif; ?>
+                                    <form method="POST" action="<?= base_url('/ingresar') ?>">
                                         <div class="form-outline form-white mb-4">
-                                            <input type="text" id="typeEmailX" class="form-control form-control-lg" />
-                                            <label class="form-label" for="user">Usuario</label>
+                                            <input type="text" id="usuario" class="form-control form-control-lg" name="usuario" required />
+                                            <label class="form-label" for="usuario">Usuario</label>
                                         </div>
 
                                         <div class="form-outline form-white mb-4">
-                                            <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                                            <input type="password" id="password" class="form-control form-control-lg" name="password" required />
                                             <label class="form-label" for="password">Contraseña</label>
                                         </div>
 
                                         <p class="small mb-3 pb-lg-2"><a class="text-white" data-bs-target="#recuperacion" data-bs-toggle="modal" data-bs-dismiss="modal" href="#">Olvido su contraseña?</a></p>
 
-                                        <p class="small mb-5 pb-lg-2"><a class="text-white" href="<?php echo base_url('/registrar'); ?>">Tiene una cuenta?</a></p>
+                                        <p class="small mb-5 pb-lg-2"><a class="text-white" href="<?php echo base_url('/registro'); ?>">Tiene una cuenta?</a></p>
 
                                         <div class=" text-center">
                                             <button class="btn btn-outline-light btn-lg px-5" type="submit">Ingresar</button>
@@ -135,7 +136,7 @@
                                         </div>
                                     </form>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small "><a class="text-white" href="<?php echo base_url('/registrar'); ?>">Necesita una cuenta? Regitrarse!</a></div>
+                                        <div class="small "><a class="text-white" href="<?php echo base_url('/registro'); ?>">Necesita una cuenta? Regitrarse!</a></div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -144,7 +145,6 @@
                             </div>
                         </div>
                     </div>
-
 
                 <?php endif; ?>
 

@@ -2,18 +2,22 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\Controller;
+use CodeIgniter\Exceptions\PageNotFoundException;
 
-class ProductoController extends Controller
+class ProductoController extends BaseController
 {
 
-    public function index()
+    public function index($page = 'producto')
     {
-        $data = [
-            'title' =>  'Producto - Tattoo Supply Store',
-        ];
+        if (!is_file(APPPATH . 'Views/pages/' . $page . '.php')) {
+            // No se encontro la pagina.
+            throw new PageNotFoundException($page);
+        }
 
-        return view('/components/header', $data) . view('/components/navbar-cliente', $data) . view('/pages/producto') . view('/components/footer-cliente');
+        $data['title'] = ucfirst($page); //Capitaliza la primera letra
+
+
+        return view('/components/header', $data) . view('/components/navbar') . view('pages/' . $page) . view('/components/footer');
     }
 
     public function __construct()

@@ -2,32 +2,43 @@
 
 namespace App\Controllers;
 
+use CodeIgniter\Exceptions\PageNotFoundException;
+
 class Panel extends BaseController
 {
-    public function index()
+    public function index($page = 'panel')
     {
-        $data = [
-            'title' =>  'Panel - Tattoo Supply Store',
-        ];
+        if (!is_file(APPPATH . 'Views/pages/' . $page . '.php')) {
+            // No se encontro la pagina.
+            throw new PageNotFoundException($page);
+        }
 
-        return  view('/components/header-admin', $data) . view('/components/navbar-admin') . view('/pages/panel') . view('/components/footer-admin');
+        $data['title'] = ucfirst($page); //Capitaliza la primera letra
+
+        return  view('/components/header-panel', $data) . view('components/navbar-panel') . view('pages/' . $page, $data) . view('/components/footer-panel');
     }
 
-    public function graficos()
+    public function obtenerGraficos($page = 'graficos')
     {
-        $data = [
-            'title' =>  'Graficos - Tattoo Supply Store',
-        ];
+        if (!is_file(APPPATH . 'Views/components/' . $page . '.php')) {
+            // No se encontro la pagina.
+            throw new PageNotFoundException($page);
+        }
 
-        return  view('/components/header-admin', $data) . view('/components/graficos') . view('/components/footer-admin');
+        $data['title'] = ucfirst($page); //Capitaliza la primera letra
+
+        return  view('/components/header-panel', $data) . view('components/navbar-panel') . view('components/' . $page) . view('/components/footer-panel');
     }
 
-    public function tablas()
+    public function obtenerTablas($page = 'tablas')
     {
-        $data = [
-            'title' =>  'Tablas - Tattoo Supply Store',
-        ];
+        if (!is_file(APPPATH . 'Views/components/' . $page . '.php')) {
+            // No se encontro la pagina.
+            throw new PageNotFoundException($page);
+        }
 
-        return  view('/components/header-admin', $data) . view('/components/tablas') . view('/components/footer-admin');
+        $data['title'] = ucfirst($page); //Capitaliza la primera letra
+
+        return  view('/components/header-panel', $data) . view('components/navbar-panel') . view('components/' . $page) . view('/components/footer-panel');
     }
 }

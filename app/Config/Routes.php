@@ -11,15 +11,15 @@ $routes = Services::routes();
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('Principal');
 $routes->setDefaultMethod('index');
-$routes->setTranslateURIDashes(false);
+$routes->setTranslateURIDashes(true);
 $routes->set404Override();
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
 // where controller filters or CSRF protection are bypassed.
 // If you don't want to define all routes, please use the Auto Routing (Improved).
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
-$routes->setAutoRoute(true);
+//$routes->setAutoRoute(false);
 
 /*
  * --------------------------------------------------------------------
@@ -31,44 +31,41 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 //principal
-$routes->get('/', 'Principal::index');
+$routes->get('/','Principal::index');
 
-//quienes somos 
-$routes->get('nosotros', 'Nosotros::index');
-
-//comercializacion
-$routes->get('comercializacion', 'Comercializacion::index');
-
-//contacto
-$routes->get('contacto', 'Contacto::index');
-
-//terminos y usos
-$routes->get('terminos', 'Terminos::index');
-
-//garantia
-$routes->get('terminos/garantia', 'Garantia::index');
-
-
-//Ingreso-Registro-Recuperacion
-$routes->get('/', 'SesionController::index');
-$routes->get('/registrar', 'SesionController::registrar');
-$routes->get('/recuperacion', 'SesionController::recuperacion');
-
-//Catalogo y Productos
+// Catalogo
 $routes->get('/catalogo', 'Catalogo::index');
-$routes->get('/catalogo/producto', 'ProductoController::index');
+
+// Quienes somos
+$routes->get('/nosotros', 'Nosotros::index');
+
+// Comercializacion
+$routes->get('/comercializacion', 'Comercializacion::index');
+$routes->get('/comercializacion/metodos', 'Comercializacion::obtenerMetodos');
+
+// Contacto
+$routes->get('/contacto', 'Contacto::index');
+$routes->get('/contacto/ubicacion', 'Contacto::obtenerUbicacion');
+
+// Terminos y usos
+$routes->get('/terminos', 'Terminos::index');
+
+// Garantia
+$routes->add('/garantia', 'Garantia::index');
+
+// Login y Registro
+$routes->get('/registro','UsuarioController::index');
+
+$routes->get('/ingreso', 'Usuario::ingreso');
+
+$routes->get('/panel', 'Panel::index', ['as' => 'panel']);
 
 
-// listar Usuarios
-$routes->get('/usuarios', 'UsuarioController::obtenerUsuarios');
+$routes->get('/panel/graficos', 'Panel::obtenerGraficos');
+$routes->get('/panel/tablas', 'Panel::obtenerTablas');
 
+$routes->get('/fallo', 'Principal::fallo', ['as' => 'fallo']);
 
-
-
-//Admin
-$routes->get('/panel', 'Panel::index', ['filter' => 'autentificacion']);
-$routes->get('/panel/graficos', 'Panel::graficos');
-$routes->get('/panel/tablas', 'Panel::tablas');
 
 // Redireccionamiento
 

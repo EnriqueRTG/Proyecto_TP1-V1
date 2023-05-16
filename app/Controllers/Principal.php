@@ -2,14 +2,26 @@
 
 namespace App\Controllers;
 
+use CodeIgniter\Exceptions\PageNotFoundException;
+
 class Principal extends BaseController
 {
-    public function index()
+    public function index($page = 'principal')
     {
-        $data = [
-            'title' =>  'Principal - Tattoo Supply Store',
-        ];
+        if (!is_file(APPPATH . 'Views/pages/' . $page . '.php')) {
+            // No se encontro la pagina.
+            throw new PageNotFoundException($page);
+        }
 
-        return view('/components/header', $data) . view('/components/navbar', $data) . view('/pages/principal-vista', $data) . view('/components/footer');
+        $mensaje = session('mensaje');
+
+        $data['title'] = ucfirst($page); //Capitaliza la primera letra
+
+        return view('/components/header', $data) . view('/components/navbar') . view('pages/' . $page, ["mensaje" => $mensaje]) . view('/components/footer');
+    }
+
+    public function fallo()
+    {
+        return view('/pages/fallo');
     }
 }

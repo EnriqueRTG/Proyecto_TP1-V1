@@ -8,7 +8,7 @@ class UsuarioModel extends Model
 {
     protected $table = 'usuario';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['nombre', 'apellido', 'email', 'usuario', 'pass', 'perfil_id', 'baja'];
+    protected $allowedFields = ['nombre', 'apellido', 'email', 'usuario', 'pass', 'perfil_id', 'baja','fecha_alta','fecha_modificacion'];
 
     // Metodo para agregar un usuario a la base de datos
     public function crearUsuario($data)
@@ -19,8 +19,15 @@ class UsuarioModel extends Model
         return $this->db->insertID();
     }
 
+    // Metodo para obtener datos de un usuario
+    public function obtenerUsuarioPorUsername($username)
+    {
+        return $this->where('usuario', $username)->first();
+    }
+
+
     // Metodo para obtener un usuario por su ID
-    public function obtenerUsuario($id)
+    public function obtenerUsuarioID($id)
     {
         $buldier = $this->db->table($this->table);
         $buldier->where('id',$id);

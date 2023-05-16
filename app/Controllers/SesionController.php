@@ -2,14 +2,20 @@
 
 namespace App\Controllers;
 
+use CodeIgniter\Exceptions\PageNotFoundException;
+
 class SesionController extends BaseController
 {
-    public function index()
+    public function index($page = 'sesion')
     {
-        $data = [
-            'title' =>  'ingreso - Tattoo Supply Store',
-        ];
-        return view('/components/header', $data) . view('/components/navbar', $data) . view('/components/ingreso') . view('/components/footer');
+        if (!is_file(APPPATH . 'Views/pages/' . $page . '.php')) {
+            // No se encontro la pagina.
+            throw new PageNotFoundException($page);
+        }
+
+        $data['title'] = ucfirst($page); //Capitaliza la primera letra
+
+        return view('/components/header', $data) . view('/components/navbar') . view('pages/' . $page) . view('/components/footer');
     }
 
     public function procesar()
@@ -72,10 +78,7 @@ class SesionController extends BaseController
         return $credencialesValidas;
     }
 
-
-
-
-    public function registrar()
+    public function registro()
     {
         $data = [
             'title' =>  'Registro - Tattoo Supply Store',

@@ -31,7 +31,7 @@
 
   <!-- Bootstrap icons -->
   <link href="<?php echo base_url(); ?>assets/icons/node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  
+
   <!-- Fuente 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +40,7 @@
 
   <link herf="<?php echo base_url(); ?>assets/fonts/Chivo_Mono/ChivoMono-VariableFont_wght.ttf" rel="stylesheet" type="text/css">
 
-  <title><?= esc($title) ?></title>
+  <title><?= esc($title) ?> - Tattoo Supply Store</title>
 
 </head>
 

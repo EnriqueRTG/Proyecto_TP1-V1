@@ -15,7 +15,8 @@ class Security extends BaseConfig
      *
      * @var string 'cookie' or 'session'
      */
-    public string $csrfProtection = 'cookie';
+    // basado en tokens
+    public string $csrfProtection = 'session';
 
     /**
      * --------------------------------------------------------------------------
@@ -24,7 +25,8 @@ class Security extends BaseConfig
      *
      * Randomize the CSRF Token for added security.
      */
-    public bool $tokenRandomize = false;
+    // aleatoriedad activada
+    public bool $tokenRandomize = true;
 
     /**
      * --------------------------------------------------------------------------
@@ -80,7 +82,7 @@ class Security extends BaseConfig
      *
      * Redirect to previous page with error on failure.
      */
-    public bool $redirect = false;
+    public bool $redirect = true;
 
     /**
      * --------------------------------------------------------------------------

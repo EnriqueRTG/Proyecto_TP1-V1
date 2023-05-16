@@ -12,6 +12,7 @@ use CodeIgniter\Filters\Autentificacion;
 
 class Filters extends BaseConfig
 {
+    
     /**
      * Configures aliases for Filter classes to
      * make reading things nicer and simpler.
@@ -30,10 +31,13 @@ class Filters extends BaseConfig
      * applied before and after every request.
      */
     public array $globals = [
+        // 'before' => [
+        //     // 'honeypot',
+        //     // 'csrf',
+        //     // 'invalidchars',
+        // ],
         'before' => [
-            // 'honeypot',
-            // 'csrf',
-            // 'invalidchars',
+            'csrf' => ['except' => ['api/record/save']],
         ],
         'after' => [
             'toolbar',
@@ -53,7 +57,10 @@ class Filters extends BaseConfig
      * permits any HTTP method to access a controller. Accessing the controller
      * with a method you don’t expect could bypass the filter.
      */
-    public array $methods = [];
+    public array $methods = [
+        // habilitamos la protección CSRF.
+        'post' => ['csrf'],
+    ];
 
     /**
      * List of filter aliases that should run on any

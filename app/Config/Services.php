@@ -19,14 +19,19 @@ use CodeIgniter\Config\BaseService;
  */
 class Services extends BaseService
 {
-    /*
-     * public static function example($getShared = true)
-     * {
-     *     if ($getShared) {
-     *         return static::getSharedInstance('example');
-     *     }
-     *
-     *     return new \CodeIgniter\Example();
-     * }
-     */
+    public $signup = [
+        'username'     => 'required',
+        'password'     => 'required',
+        'pass_confirm' => 'required|matches[password]',
+        'email'        => 'required|valid_email',
+    ];
+
+    public $signup_errors = [
+        'username' => [
+            'required' => 'You must choose a username.',
+        ],
+        'email' => [
+            'valid_email' => 'Please check the Email field. It does not appear to be valid.',
+        ],
+    ];
 }
